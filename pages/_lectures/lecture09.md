@@ -4,7 +4,7 @@ title: Building blocks of programming
 type: lecture
 draft: 0
 num: 9
-due_date: 2021-05-04
+due_date: 2021-05-05
 slides:
    - url: https://docs.google.com/presentation/d/1elm49svtvPFtWlqn7AWpgkyp7vHo5kl8lbxIBWRmwQo/edit?usp=sharing
      title: Intro to Programming

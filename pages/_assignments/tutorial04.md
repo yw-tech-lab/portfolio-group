@@ -2,6 +2,7 @@
 layout: module
 title: Practice manipulating the DOM with JavaScript
 type: tutorial
+abbreviation: Tutorial 4
 draft: 0
 num: 4
 points: 2

@@ -3,7 +3,7 @@ layout: assignment-two-column
 title: Signup for a Discussion Section!
 abbreviation: HW0
 type: homework
-due_date: 2021-04-06
+due_date: 2021-04-07
 ordering: 1
 draft: 0
 points: 0

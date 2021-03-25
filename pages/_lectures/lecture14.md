@@ -4,7 +4,7 @@ title: Making your app interactive with third-party data
 type: lecture
 draft: 0
 num: 14
-due_date: 2021-05-20
+due_date: 2021-05-24
 slides:
    - title: Making your app interactive with third-party data
      url: https://docs.google.com/presentation/d/1tJfkA8Ans9AeokARRGbh-ktENYf_TeXlhbqsRggkUv8/edit?usp=sharing

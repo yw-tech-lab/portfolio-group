@@ -4,12 +4,13 @@ title: Installation & Configuration
 type: tutorial
 draft: 0 
 points: 2
+abbreviation: Tutorial 1
 show_schedule: 1
 num: 1
 description:
   - Installing & configuring Atom
   - Practice with HTML tags
-due_date: 2021-04-10
+due_date: 2021-04-09
 ---
 
 {:.blockquote-no-margin}

@@ -12,7 +12,7 @@ slides:
    - url: https://docs.google.com/presentation/d/1Xbq-hXcfKSI7GG_0nmlJLOBDqwQasAtsRKHajmLHy2s/edit?usp=sharing
      title: |
         Color & Visually Communicating Values
-due_date: 2021-04-22
+due_date: 2021-04-26
 videos:
    - url: https://northwestern.zoom.us/rec/share/295aEr_T91lIGtLTx0SGd5VmPp3Maaa81SMf_vNYmBzXW9FC3w3WApU-cdZ5Sz2i
      title: Visual Design Part 2

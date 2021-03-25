@@ -4,7 +4,7 @@ title: Intro to Semantic Tags + Crawlers + Jaws
 type: lecture
 draft: 0
 num: 3
-due_date: 2021-04-13
+due_date: 2021-04-14
 slides:
    - url: https://docs.google.com/presentation/d/1BlaesCoO-FVOl7WI-ycxh8OE5wmm7Q-tvSFBUq2gmhk/edit?usp=sharing
      title: Semantic Tags and Web Accessibility

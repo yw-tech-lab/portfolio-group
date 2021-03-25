@@ -2,6 +2,7 @@
 layout: module
 title: CSS Grid & Media Queries
 type: tutorial
+abbreviation: Tutorial 3
 draft: 0
 num: 3
 points: 2

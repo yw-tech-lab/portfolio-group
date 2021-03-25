@@ -4,7 +4,7 @@ title: Functions, events, and control
 type: lecture
 draft: 0
 num: 10
-due_date: 2021-05-06
+due_date: 2021-05-10
 slides:
    - url: https://docs.google.com/presentation/d/1AC_oe2k0vgmLAyRL9p4DiNeoVtDDCeF5IlEBPcybv-Q/edit?usp=sharing
      title: Functions + Events; Control

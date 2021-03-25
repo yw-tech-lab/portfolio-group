@@ -35,7 +35,7 @@ videos:
      title: Course Logistics
      live: 1
 
-due_date: 2021-04-06
+due_date: 2021-04-07
 # quiz_url: IDK
 
 

@@ -87,8 +87,8 @@ layout: default
                         {% if assignment.type == "homework" %}
                             {% assign classname = "hw" %}
                         {% endif %} 
-                        {% if assignment.type == "extra credit" %}
-                            {% assign classname = "ec" %}
+                        {% if assignment.type == "tutorial" %}
+                            {% assign classname = "lab" %}
                         {% endif %} 
                         
                         {% if assignment.draft == 1 %}

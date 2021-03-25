@@ -2,6 +2,7 @@
 layout: two-column
 title: Tutorial 8
 type: tutorial
+abbreviation: Tutorial 8
 draft: 0
 num: 8
 points: 2

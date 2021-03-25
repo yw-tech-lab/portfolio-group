@@ -1,11 +1,12 @@
 ---
-layout: two-column
+layout: lecture
 title: Group Meetings
 type: lecture
 draft: 0
-num: 16
-due_date: 2021-05-27
+num: 15
+due_date: 2021-05-26
 ---
+
 
 For the last 3 class meetings -- and in tutorial this week -- we will be prioritizing your final project and the skills and ideas that will help you complete your milestones.
 
@@ -32,3 +33,4 @@ How should we use our last 10 days?
 
 ### Individual Group Meeting Slots [Office Hours]
 We could also convert all class meeting times to office hours and have people sign up for slots
+

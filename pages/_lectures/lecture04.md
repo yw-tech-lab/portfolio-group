@@ -8,7 +8,7 @@ slides:
    - url: https://docs.google.com/presentation/d/10w0PWm6NJ0aUQfwbP3AIKqj9x1Y4PJdLo47CEIpJyEE/edit?usp=sharing
      title: Intro to CSS & the DOM
 num: 4
-due_date: 2021-04-15
+due_date: 2021-04-19
 videos:
    - url: https://northwestern.zoom.us/rec/share/6elLBquo70lOZNbwx2HkVKkMMIXJaaa81XIcqfFczBzdN3WumAfJ0n6CZbpGmoIF
      title: Intro to CSS & the DOM
