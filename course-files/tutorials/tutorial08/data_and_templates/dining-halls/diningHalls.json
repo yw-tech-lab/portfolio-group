@@ -1,0 +1,22 @@
+{
+    "sargent": {
+        "name": "Sargent",
+        "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/igB-gfQvDnvIFexNUhKicQ/o.jpg",
+        "display_address": "2424 Dempster St, Evanston, IL 60202",
+        "coordinates": {
+            "latitude": 42.04066,
+            "longitude": -87.70823
+        },
+        "time_open": "8AM-8PM"
+    },
+    "elder": {
+        "name": "Elder",
+        "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/aRJSwHlSxYtJshRy-G3WZQ/o.jpg",
+        "display_address": "123 Main St.",
+        "coordinates": {
+            "latitude": 42.04066,
+            "longitude": -87.70823
+        },
+        "time_open": "8AM-8PM"
+    }
+}

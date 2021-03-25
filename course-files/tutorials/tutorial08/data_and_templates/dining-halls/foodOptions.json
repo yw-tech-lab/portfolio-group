@@ -1,0 +1,23 @@
+[   
+    {
+        "name": "Comfort",
+        "locations": ["sargent", "elder"],
+        "items": [
+            "Chicken", "Potatoes", "Rice"
+        ]
+    },
+    {
+        "name": "Rooted",
+        "locations": ["sargent"],
+        "items": [
+            "Tofu", "Green Beans", "Ice Cream", "Refried Beans", "Pita Bread"
+        ]
+    },
+    {
+        "name": "Kosher",
+        "locations": ["sargent", "elder"],
+        "items": [
+            "Pizza", "Fries"
+        ]
+    }
+]

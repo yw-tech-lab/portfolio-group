@@ -1,0 +1,130 @@
+body * {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    overflow-x: hidden;
+}
+a, a:hover, a:visited, a:active { 
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 1.6em;
+}
+p {
+    line-height: 1.6em;
+    margin: 5px;
+}
+
+
+/* ***********************************************************
+   LAYOUTS
+   *********************************************************** */
+* {
+    box-sizing: border-box;
+}
+aside, footer, header, section, article {
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    border-collapse: collapse;
+    display: block;
+}
+
+table td {
+    border: dashed 1px #CCC;
+    padding: 8px;
+}
+
+body {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 250px auto;
+    grid-template-rows: auto 100px;
+    grid-template-areas:
+       "left main"
+       "bottom bottom";
+    min-height: 100vh;
+}
+aside {
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    grid-area: left;
+    border-right: dotted #999 1px;  
+    padding: 5px 25px;
+    color: #000;  
+}
+aside a {
+    line-height: 2.0em;
+}
+
+header {
+    position: fixed;
+    width: calc(100vw - 250px);
+    left: 250px;
+    background: #fff;
+    border-bottom: dotted #999 1px;   
+}
+
+header a,
+header a:visited, 
+header {
+    padding: 10px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+main {
+    grid-area: main;
+    z-index: 3;
+}
+main > article {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:0px;
+    margin-top: 100px;
+}
+
+
+#section-1 > section, #section-2 > section, #section-3 > section {
+    border: dotted 1px #ccc;
+    min-height: 250px;
+}
+
+.bg-image {
+    height: 250px;
+    background-size: cover;
+}
+
+#section-1 {
+    width: 40%;
+    padding: 20px;
+}
+
+#section-2 {
+    width: 60%;
+    padding: 20px;
+}
+#section-3 {
+    width: 100%;
+    padding: 20px;
+}
+
+footer {
+    grid-area: bottom;
+    border-top: dotted #999 1px;   
+    width: calc(100vw - 250px);
+    left: 250px;
+    flex-direction: row;
+    color: #444;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}

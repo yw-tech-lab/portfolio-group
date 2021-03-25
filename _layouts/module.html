@@ -1,0 +1,78 @@
+---
+layout: two-column
+show_outline: true
+---
+
+{% if page.due_date %}
+    {% assign dateStart = site.term_start_date | date: '%s' %}
+    {% assign lectureDate = page.due_date | date: '%s' %}
+    {% assign diffSeconds = lectureDate | minus: dateStart %}
+    {% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 | plus: 1 %}
+    {% assign week = diffDays | divided_by: 7 | plus: 1 %}
+{% endif %}
+<div class="subtitle">
+    Week {{ week }}: 
+    {% if page.type == "lecture" %}
+        {{ page.due_date  | date: "%a, %b %-d" }}
+    {% else %}
+        Tutorial {{num}}
+    {% endif %}
+</div>
+
+
+{{content}}
+
+{% if page.type == "lecture" %}
+    <h2 id="slides">Review the Slides</h2>  
+{% endif %}
+{% if page.slides %}
+    <ol>
+    {% for slide in page.slides %}
+        <li>
+            <a href="{{slide.url}}" target="_blank">{{slide.title}}</a>
+        </li>
+    {% endfor %}
+    </ol>
+{% elsif page.type == "lecture" %}
+    <p>Slides will be posted soon.</p>
+{% endif %}
+
+{% if page.type == "lecture" %}
+    <h2 id="videos">Watch the Lecture Video(s)</h2>
+{% endif %}
+{% if page.videos %}
+    <ol>
+    {% for video in page.videos %}
+        <li>
+            <a href="{{video.url}}" target="_blank">{{video.title}}</a>
+            {% if video.live %}
+                (lecture recording)
+            {% else %}
+                (pre-recorded)
+            {% endif %}
+        </li>
+    {% endfor %}
+    </ol>
+{% elsif page.type == "lecture" %}
+    <p>Videos will be posted soon.</p>
+{% endif %}
+
+{% if page.readings %}
+    <h2 id="readings">Review / Study the Supplemental Materials</h2>
+    {% include page_readings.html %} 
+{% endif %}
+
+{% if page.quiz_url %}
+    <h2 id="quiz">Take the Quiz</h2>
+    <p>
+        Note: The quiz is to help you test your own understanding 
+        of the concepts. It is not graded, but it helps us understand 
+        how you're progressing through the course.
+    </p>
+    {{page.quiz_url}}
+{% endif %}
+
+{% if page.include_page %}
+    {% capture my_include %}{% include_relative {{ page.include_page }} %}{% endcapture %}
+    {{ my_include | markdownify }}
+{% endif %}
