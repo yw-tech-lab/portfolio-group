@@ -2,7 +2,7 @@
 layout: module
 title: Installation & Configuration
 type: tutorial
-draft: 1 
+draft: 0
 points: 2
 abbreviation: Tutorial 1
 show_schedule: 1

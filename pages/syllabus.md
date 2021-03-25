@@ -8,10 +8,9 @@ permalink: /syllabus/
 | **Term** | Spring, 2021 |
 | **Course** | EECS 130: Tools and Technologies of the Worldwide Web |
 | **Prerequisites** | No experience necessary! |
-| **Instructor** | Sarah Van Wart |
+| **Instructor** | Sarah Van Wart (she/her) |
 | **Lecture** | MW 4:00-4:50pm, Online |
-| **Section 1 (Th)** | Th 4:00-4:50pm with Anna |
-| **Section 2 (Fr)** | Fr 4:00-4:50pm with Sarah |
+| **Sections** | TBD |
 
 ## About the Course
 This course is an introduction to the web, and assumes no prior knowledge. If you feel like you know nothing about coding (as in computer code) or design, but are a little bit curious about the web, then this course for you. If you’ve had quite a bit of experience with coding and design but want to continue developing your skills / portfolio, then this course may also be for you, although you may eventually want to explore additional courses offered in the CS Department (e.g. Agile Programming, Information Visualization, Intro to HCI, etc.).
@@ -42,9 +41,10 @@ The majority of your grade will be based on 4 homework assignments and one final
 
 ## Course Staff
 ### Peer Mentors
-* X
-* Y
-* Z
+
+* Katherine Johns (katherinejohns2021@u.northwestern.edu)
+* Jenny Lam	(jennylam2021@u.northwestern.edu)
+* Z Mallwitz (isabellemallwitz2022@u.northwestern.edu)
 
 
 ### Office Hours
