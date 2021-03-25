@@ -2,7 +2,7 @@
 layout: module
 title: Functions, events, and control
 type: lecture
-draft: 0
+draft: 1
 num: 10
 due_date: 2021-05-10
 slides:

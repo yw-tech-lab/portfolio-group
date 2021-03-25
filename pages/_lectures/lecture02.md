@@ -2,7 +2,7 @@
 layout: module
 title: The Building Blocks of the Web
 type: lecture
-draft: 0
+draft: 1
 show_schedule: 1
 num: 2
 description:

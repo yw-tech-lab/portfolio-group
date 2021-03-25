@@ -2,7 +2,7 @@
 layout: module
 title: Intro to the Course
 type: lecture
-draft: 0
+draft: 1
 image_url: assets/images/internet-backbone-map.png
 show_schedule: 1
 num: 1

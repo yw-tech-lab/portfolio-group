@@ -2,7 +2,7 @@
 layout: module
 title: Building blocks of programming
 type: lecture
-draft: 0
+draft: 1
 num: 9
 due_date: 2021-05-05
 slides:

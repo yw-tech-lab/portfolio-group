@@ -3,7 +3,7 @@ layout: module
 title: Loops Practice
 type: tutorial
 abbreviation: Tutorial 6
-draft: 0
+draft: 1
 due_date: 2021-05-14
 num: 6
 points: 2

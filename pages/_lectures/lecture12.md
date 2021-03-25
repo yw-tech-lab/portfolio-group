@@ -2,7 +2,7 @@
 layout: module
 title: Lists, Dictionaries, and Templates
 type: lecture
-draft: 0
+draft: 1
 num: 12
 due_date: 2021-05-17
 slides:

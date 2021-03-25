@@ -2,7 +2,7 @@
 layout: module
 title: Intro to Semantic Tags + Crawlers + Jaws
 type: lecture
-draft: 0
+draft: 1
 num: 3
 due_date: 2021-04-14
 slides:

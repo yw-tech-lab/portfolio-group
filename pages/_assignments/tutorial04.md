@@ -3,7 +3,7 @@ layout: module
 title: Practice manipulating the DOM with JavaScript
 type: tutorial
 abbreviation: Tutorial 4
-draft: 0
+draft: 1
 num: 4
 points: 2
 due_date: 2021-04-30

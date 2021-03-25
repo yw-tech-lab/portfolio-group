@@ -2,7 +2,7 @@
 layout: module
 title: Intro to Visual Design - Part I
 type: lecture
-draft: 0
+draft: 1
 num: 5
 slides:
    - url: https://docs.google.com/presentation/d/1inUocjpoXTxhqPm2awyO1MMgTHJj4BPWzCXzVEQQzjA/edit?usp=sharing

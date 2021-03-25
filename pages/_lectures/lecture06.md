@@ -2,7 +2,7 @@
 layout: module
 title: Intro to Visual Design - Part II
 type: lecture
-draft: 0
+draft: 1
 num: 6
 description:
   - Color

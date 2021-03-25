@@ -2,7 +2,7 @@
 layout: lecture
 title: Extended Office Hours
 type: lecture
-draft: 0
+draft: 1
 num: 18
 due_date: 2021-06-07
 ---

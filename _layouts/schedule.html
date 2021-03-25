@@ -6,7 +6,8 @@ layout: default
     <!-- gets a distinct list of dates from lectures and assignments -->
     {% assign everything = site.assignments | concat: site.lectures %}
     {% assign dates = everything | sort: 'due_date'| map: 'due_date' | uniq %}
-
+    {% assign labs = site.assignments | where: 'type', 'tutorial' %}
+    {% assign main_listing = site.lectures | concat: labs %}
     <p>
         Note: This schedule is subject to change (as needed). 
         In addition, unless otherwise indicated, homework and projects are 
@@ -24,7 +25,7 @@ layout: default
         <tbody>
         {% assign last_week = 0 %}
         {% for date in dates %}
-            {% assign lecture = site.lectures | where: 'due_date', date | last %}
+            {% assign lecture = main_listing | where: 'due_date', date | last %}
             <!-- Calculate the Week -->
             {% assign dateStart = site.term_start_date | date: '%s' %}
             {% assign lectureDate = date | date: '%s' %}
@@ -45,9 +46,6 @@ layout: default
                     <td> 
                         {% if lecture.type != 'tutorial' %}
                             {{ date | date: "%a, %m/%d" }}
-                        {% else %}
-                            Tutorial<br>
-                            (during assigned day/time)
                         {% endif %} 
                     </td>
                     <td>
@@ -64,16 +62,19 @@ layout: default
                             {% assign className = 'pj' %}
                             {% assign prefix = "Presentation" %}
                         {% endif %} 
-                        {% if lecture.draft == 1 and prefix %}
+                        {% if lecture.type == 'tutorial' %}
+                            {{ prefix }}
+                        {% elsif lecture.draft == 1 and prefix %}
                             <span class="badge">
                                 {{ prefix }}
                             </span>
+                            {{ lecture.title }} 
                         {% elsif prefix %} 
                             <a class="{{ className }}" href="{{site.baseurl}}{{lecture.url}}">
                                 {{ prefix }} <i class="fas fa-link"></i>
                             </a>
+                            {{ lecture.title }} 
                         {% endif %}
-                        {{ lecture.title }} 
                     </td>
                 {% else %}
                     <!-- If no lecture -->

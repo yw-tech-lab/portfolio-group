@@ -3,7 +3,7 @@ layout: module
 title: Getting Started with GitHub
 type: tutorial
 abbreviation: Tutorial 2
-draft: 0
+draft: 1
 due_date: 2021-04-16
 num: 2
 points: 2

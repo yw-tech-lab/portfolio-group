@@ -3,7 +3,7 @@ layout: module
 title: |
     Intro to CSS: The DOM, Selectors, & the Cascade
 type: lecture
-draft: 0
+draft: 1
 slides:
    - url: https://docs.google.com/presentation/d/10w0PWm6NJ0aUQfwbP3AIKqj9x1Y4PJdLo47CEIpJyEE/edit?usp=sharing
      title: Intro to CSS & the DOM

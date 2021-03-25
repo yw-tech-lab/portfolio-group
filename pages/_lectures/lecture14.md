@@ -2,7 +2,7 @@
 layout: module
 title: Making your app interactive with third-party data
 type: lecture
-draft: 0
+draft: 1
 num: 14
 due_date: 2021-05-24
 slides:

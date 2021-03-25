@@ -2,7 +2,7 @@
 layout: lecture
 title: Group Meetings
 type: lecture
-draft: 0
+draft: 1
 num: 15
 due_date: 2021-05-26
 ---

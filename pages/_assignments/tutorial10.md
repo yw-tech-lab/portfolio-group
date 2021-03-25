@@ -3,7 +3,7 @@ layout: assignment-two-column
 title: Final Project Presentations
 type: presentation
 abbreviation: Presentation
-draft: 0
+draft: 1
 num: 10
 points: 4
 due_date: 2021-06-11

@@ -3,7 +3,7 @@ layout: module
 title: CSS Grid & Media Queries
 type: tutorial
 abbreviation: Tutorial 3
-draft: 0
+draft: 1
 num: 3
 points: 2
 due_date: 2021-04-23

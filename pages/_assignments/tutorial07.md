@@ -3,7 +3,7 @@ layout: lecture
 title: Practice querying & displaying data
 type: tutorial
 abbreviation: Tutorial 7
-draft: 0
+draft: 1
 due_date: 2021-05-21
 num: 7
 points: 2

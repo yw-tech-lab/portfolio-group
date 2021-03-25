@@ -6,7 +6,7 @@ type: homework
 due_date: 2021-05-12
 ordering: 3
 points: 10
-draft: 0
+draft: 1
 ---
 
 <a class="nu-button" href="/spring2021/course-files/homework/hw03.zip">

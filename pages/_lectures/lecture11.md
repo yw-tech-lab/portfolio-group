@@ -2,7 +2,7 @@
 layout: module
 title: Conditional Statements and Data Types Part 2
 type: lecture
-draft: 0
+draft: 1
 num: 11
 due_date: 2021-05-12
 slides:

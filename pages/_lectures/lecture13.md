@@ -3,7 +3,7 @@ layout: module
 title: |
     Working with Data: AJAX & Web APIs (Part 1)
 type: lecture
-draft: 0
+draft: 1
 num: 13
 due_date: 2021-05-19
 slides:

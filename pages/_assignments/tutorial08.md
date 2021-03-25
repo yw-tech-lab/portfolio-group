@@ -3,7 +3,7 @@ layout: two-column
 title: Tutorial 8
 type: tutorial
 abbreviation: Tutorial 8
-draft: 0
+draft: 1
 num: 8
 points: 2
 due_date: 2021-05-28

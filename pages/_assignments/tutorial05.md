@@ -4,7 +4,7 @@ title: |
     JavaScript & the DOM: Part 2
 type: tutorial
 abbreviation: Tutorial 5
-draft: 0
+draft: 1
 due_date: 2021-05-07
 num: 5
 points: 2

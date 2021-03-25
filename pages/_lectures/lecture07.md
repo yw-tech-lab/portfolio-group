@@ -2,7 +2,7 @@
 layout: module
 title: CSS Wrap-Up
 type: lecture
-draft: 0
+draft: 1
 num: 7
 slides:
    - url: https://docs.google.com/presentation/d/1Qy9jA4waThszky2JmJQLuJNU-mImagR7XWn2hvIBs0Q/edit?usp=sharing
