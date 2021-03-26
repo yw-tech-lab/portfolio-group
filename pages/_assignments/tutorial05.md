@@ -5,7 +5,7 @@ title: |
 type: tutorial
 abbreviation: Tutorial 5
 draft: 1
-due_date: 2021-05-07
+due_date: 2021-04-30
 num: 5
 points: 2
 description:

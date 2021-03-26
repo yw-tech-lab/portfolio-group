@@ -6,7 +6,7 @@ abbreviation: Presentation
 draft: 1
 num: 10
 points: 4
-due_date: 2021-06-11
+due_date: 2021-06-04
 ---
 
 ## Summary

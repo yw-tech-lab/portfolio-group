@@ -6,7 +6,7 @@ abbreviation: Tutorial 4
 draft: 1
 num: 4
 points: 2
-due_date: 2021-04-30
+due_date: 2021-04-23
 
 ---
 <a href="/spring2021/course-files/tutorials/tutorial04.zip" class="nu-button">Download Tutorial Files <i class="fas fa-download"></i></a> <a href="/spring2021/course-files/tutorials/tutorial04_solutions.zip" class="button">Solutions <i class="fas fa-download"></i></a>

@@ -2,6 +2,7 @@
 layout: module
 title: Intro to the Course
 type: lecture
+due_date: 2021-03-31
 draft: 1
 image_url: assets/images/internet-backbone-map.png
 show_schedule: 1
@@ -35,7 +36,6 @@ videos:
      title: Course Logistics
      live: 1
 
-due_date: 2021-04-07
 # quiz_url: IDK
 
 

@@ -5,7 +5,7 @@ title: |
 type: lecture
 draft: 1
 num: 13
-due_date: 2021-05-19
+due_date: 2021-05-12
 slides:
    - title: Introduction to AJAX & Fetch
      url: https://docs.google.com/presentation/d/1cC72rAuVbVMbMn4J2ykT3Ayt7HPXS1pjpmGmZq0OjqM/edit?usp=sharing

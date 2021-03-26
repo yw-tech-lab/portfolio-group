@@ -4,7 +4,7 @@ title: Conditional Statements and Data Types Part 2
 type: lecture
 draft: 1
 num: 11
-due_date: 2021-05-12
+due_date: 2021-05-05
 slides:
    - url: https://docs.google.com/presentation/d/1Ra5RGuX0e5PysR57rYVKRQ3up7LOTPyeihMpY5vCOao/edit?usp=sharing
      title: Conditionals & More data structures.

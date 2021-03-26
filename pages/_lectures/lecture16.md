@@ -1,10 +1,12 @@
 ---
 layout: two-column
-title: Memorial Day
+title: Extended Office Hours
 type: lecture
 draft: 1
 num: 16
-due_date: 2021-05-31
+due_date: 2021-05-24
 ---
 
-Memorial Day (No Class)
+### Please Sign Up for an OH Slot
+
+<a href="https://docs.google.com/spreadsheets/d/1d_1wr_ba8dim7D4Fe-Hpy0kzVmYQcvF9E79Is-86wJk/edit#gid=876985131" target="_blank">Sign-up Sheet</a>

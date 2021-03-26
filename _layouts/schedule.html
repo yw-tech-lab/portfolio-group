@@ -44,9 +44,7 @@ layout: default
                 {% if lecture %}
                     <!-- If lecture -->
                     <td> 
-                        {% if lecture.type != 'tutorial' %}
-                            {{ date | date: "%a, %m/%d" }}
-                        {% endif %} 
+                        {{ date | date: "%a, %m/%d" }}
                     </td>
                     <td>
                         {% assign className = 'lec' %}

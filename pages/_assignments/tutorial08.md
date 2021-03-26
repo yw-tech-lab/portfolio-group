@@ -6,7 +6,7 @@ abbreviation: Tutorial 8
 draft: 1
 num: 8
 points: 2
-due_date: 2021-05-28
+due_date: 2021-05-21
 description:
     - GET, POST, PUT, and DELETE
 ---

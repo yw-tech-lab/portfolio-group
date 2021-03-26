@@ -11,7 +11,7 @@ slides:
 description:
   - Visual Design
   - Best Practices
-due_date: 2021-04-21
+due_date: 2021-04-14
 readings:
   - title: "The Non-Designer's Design Book, Chapter 1"
     url: "https://canvas.northwestern.edu/files/8620704/download?download_frd=1"

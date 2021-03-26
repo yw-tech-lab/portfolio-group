@@ -4,7 +4,7 @@ title: Practice manipulating the DOM with JavaScript
 type: lecture
 draft: 1
 num: 8
-due_date: 2021-05-03
+due_date: 2021-04-26
 slides:
    - url: https://docs.google.com/presentation/d/1WWHJ0Y9qTqyJfjJEelH48LwROKBbq-W_U6LpS4jjdf0/edit?usp=sharing
      title: Intro to JavaScript
