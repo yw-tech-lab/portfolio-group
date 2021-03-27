@@ -191,22 +191,20 @@ When you're done, your page should look like this (except with *your* videos):
 
 {:#step6}
 ### 6. Optional Enhancements
-While we have not yet covered CSS or Web Accessibility ideas, we encourage you to look towards what’s coming next and start getting oriented with CSS and accessibility standards.
-
-#### A. Accessibility enhancements
-Note: following accessibility guidelines is good for everyone — people with disabilities, screen readers, and crawlers and machines who are indexing your content so that you are discoverable on the web. Some simple things you can do:
-
-* Alt tags for images [source]
-* Validate your HTML using an online validator
-
-#### B. CSS enhancements
-Try editing style.css as follows:
+While we have not yet covered CSS, try editing style.css as follows:
 * See if you can change the fonts and/or text color of the h1 tag
 * Try resizing the images
 * See if you can get your iframe to have the same style as your image
 * Change the background color of you web page
 * See if you can get your hyperlinks to have a hover effect
 
+{:.blockquote}
+> #### CSS Reference
+> Please also see the course resources on CSS:
+>
+> * [fonts](/spring2021/css-reference/fonts/)
+> * [color](/spring2021/css-reference/color/)
+> * [selectors](/spring2021/css-reference/selectors/)
 
 ## What to turn in
 Please zip your entire tutorial01 folder (ask your TA if you don’t know how to do this), and submit it to Canvas under **Tutorial 1**.
