@@ -1,6 +1,7 @@
 ---
 layout: module
-title: Loops Practice
+title: |
+    JavaScript & the DOM: Part 2
 type: tutorial
 abbreviation: Tutorial 6
 draft: 1
@@ -8,72 +9,51 @@ due_date: 2021-05-07
 num: 6
 points: 2
 description:
-    - Working with lists, objects, and remote data (via AJAX)
+    - Functions and Event Handlers
 ---
 
-<a href="/spring2021/course-files/tutorials/tutorial06.zip" class="nu-button">Download Tutorial Files <i class="fas fa-download"></i></a> 
+<img class="module-image" src="{{site.baseurl}}/assets/images/tutorials/tutorial05_dom.png" /> This week in tutorial, we will be doing a walkthrough of [homework 3](../assignments/hw3) in order to: (1) introduce and discuss some additional DOM properties (e.g. accessing sibling elements), and (2) introduce you to how you might want to use a variable to track the state of your program. Regarding item (2): in order for your browser to show you your next photo, you have to track what photo they're currently viewing, and this requires using a variable. 
 
-In tutorial this week, we're going to practice using `for...of` loops and templates to create "data-driven" interfaces that are responsive to the user. Part 1 is recommended. Part 2 is optional (if you're interested in basic JavaScript animations), and is recommended for more experienced programmers.
+Before you begin homework 3, please review the concepts below, and complete the exercises:
 
-## Part 1: Required for Tutorial
+## Step 1: Review the DOM Rules
 
-### 01-list-of-strings
-Using a for/of loop, print a greeting for each person in the names list.
-<br><a href="/spring2021/course-files/tutorials/tutorial06/01-list-of-strings" target="_blank">starter</a>
+### What element do you want to target?
+Use a `document.querySelector("your_selector")`, where the selector goes inside of the parenthesis. Recall: use a class selector, a tag selector, or an id selector
 
-### 02-photo-gallery
-Use a for / of loop to generate a card for each photo in the list. You will also have to use a template variable.
-<br><a href="/spring2021/course-files/tutorials/tutorial06/02-photo-gallery" target="_blank">starter</a>
+### Do you want to change its style?
+Then use this pattern:
+```js
+document.querySelector("your_selector").style.some_property = some_value;
+```
 
-### 03-list-of-objects-and-a-template
-Using a for/of loop, render a card for each person in the list that displays their avatar, name, and score.
-<br><a href="/spring2021/course-files/tutorials/tutorial06/03-list-of-objects-and-a-template" target="_blank">starter</a>
+Note that you would replace `your_selector`, `some_property` and `some_value` with valid values. Refer to the cheatsheet from [Tutorial 4](10tutorial) to see a list of some of the style properties.
 
-### 04-gallery-ajax
-Study the index.js file and the way it "fetches" data from a remote server. Add comments to the file so that you understand what's happening.
-<br><a href="/spring2021/course-files/tutorials/tutorial06/04-gallery-ajax" target="_blank">starter</a>
+### Do you want to change its attribute?
+Then use this pattern:
+```js
+document.querySelector("your_selector").some_attribute = some_value;
+```
 
-### 05-gallery-many-threads
-Update the loadCars() and loadBikes() functions so that they loads photos from the cars and bikes data files (respectively).
-<br><a href="/spring2021/course-files/tutorials/tutorial06/05-gallery-many-threads" target="_blank">starter</a>
+Note that you would replace `your_selector`, `some_attribute` and `some_value` with valid values. Refer to the cheatsheet from [Tutorial 4](10tutorial) to see a list of some common attributes.
 
-## [Optional] Part 2: Indeterminate Loops
-Indeterminate Loops are loops that can repeat any number of times (not constrained by the length of a list or collection). Please try and complete the following exercises (working from the starter files):
+### Get familiar with some new DOM-related vocabulary
+* nextElementSibling (<a href="https://developer.mozilla.org/en-US/docs/Web/API/NonDocumentTypeChildNode/nextElementSibling" target="_blank">docs</a>)
+* previousElementSibling (<a href="https://developer.mozilla.org/en-US/docs/Web/API/NonDocumentTypeChildNode/previousElementSibling" target="_blank">docs</a>)
 
-### 01-identical-icons
-Using a while loop, print the message provided in `js/index.js` 100 times.
-<br><a href="/spring2021/course-files/tutorials/tutorial06/optional/01-identical-icons" target="_blank">starter</a>
+## Step 2: Complete the DOM exercises
+1. Open your JavaScript console
+2. Select the first `h1` tag for this page. 
+    * modify its innerHTML
+    * modify its font color
+3. Select the first img tag for this page.
+    * modify its `src` attribute to point to another image (copy any image url that you find online).
+    * update the `innerHTML` of the img element's `previousElementSibling`
+    * update the `innerHTML` of the img element's `nextElementSibling`
 
-### 02-icon-variety
-Using a **for...of loop**, iterate through the classNames list and output an icon that corresponds to each font awesome class. Note that these icons are drawing from the <a href="https://fontawesome.com/icons?d=gallery&m=free" target="_blank">FontAwesome icons</a>. Feel free to switch them out.
-<br><a href="/spring2021/course-files/tutorials/tutorial06/optional/02-icon-variety" target="_blank">starter</a>
 
-### 03-bubbles
-Using a **while loop**, render 200 bubbles. Note: this code uses a third-party library called <a href="http://paperjs.org/" target="_blank">Paper.js</a>, which makes it easier to use the html5 `<canvas>` tag.
-<br><a href="/spring2021/course-files/tutorials/tutorial06/optional/03-bubbles" target="_blank">starter</a>
 
-### 04-different-color-bubbles
-Using **any kind of loop**, render 200 bubbles, but make the bubbles different colors by selecting a random color from the colors array. Your solution should render bubbles with all 5 colors. Hint, you’ll need to figure out how to change the colors array index as you loop.
-<br><a href="/spring2021/course-files/tutorials/tutorial06/optional/04-different-color-bubbles" target="_blank">starter</a>
+## Step 2: Start Homework 3
+WHen you're done from the above, please download and begin [homework 3](../assignments/hw3).
 
-### 05-fish-left-right
-Modify the code inside the onFrame event handler (lines 70-76) so that all of the fish move — not just the first 3. One thing to note here is that you can use canvas to add some whimsical effects w/o animation being the main event. 
-<br><a href="/spring2021/course-files/tutorials/tutorial06/optional/05-fish-left-right" target="_blank">starter</a>
 
-If you want, you’re welcome to change the fish images, or to modify the number of fish that get created.
-
-### 06-animated-bubbles
-Similar code to the above. Please complete the following:
-1. Modify the  createBubbles function so that it actually creates numBubbles bubbles (currently set to 100 bubbles).
-2. Make all the bubbles move by modifying the code inside the onFrame event handler (lines 56-60) 
-
-<a href="/spring2021/course-files/tutorials/tutorial06/optional/06-animated-bubbles" target="_blank">starter</a>
-
-## Turn in your files via GitHub
-1. Ensure that your `tutorial06` folder is inside of your repo folder.
-2. Check the status of your repo:<br>`$ git status`<br>It should say that your tutorial06 files are “untracked”
-3. Add all of your tutorial06 files to the list of files that are tracked by the repo:<br>`$ git add tutorial06`
-4. Check the status of your repo again:<br>`$ git status`<br>It should now say that you tutorial06 files are being tracked.
-5. Now, commit your new tutorial06 files to the repo:<br>`$ git commit -m "Adding my tutorial06 to the repo"`
-6. Finally, “push” your files to GitHub:<br>`$ git push`
-7. Paste a link to your GitHub repo and to your GitHub pages 

@@ -1,59 +1,88 @@
 ---
 layout: module
-title: |
-    JavaScript & the DOM: Part 2
+title: Practice manipulating the DOM with JavaScript
 type: tutorial
 abbreviation: Tutorial 5
 draft: 1
-due_date: 2021-04-30
 num: 5
 points: 2
-description:
-    - Functions and Event Handlers
+due_date: 2021-04-30
+
 ---
+<a href="/spring2021/course-files/tutorials/tutorial04.zip" class="nu-button">Download Tutorial Files <i class="fas fa-download"></i></a> <a href="/spring2021/course-files/tutorials/tutorial04_solutions.zip" class="button">Solutions <i class="fas fa-download"></i></a>
 
-<img class="module-image" src="{{site.baseurl}}/assets/images/tutorials/tutorial05_dom.png" /> This week in tutorial, we will be doing a walkthrough of [homework 3](../assignments/hw3) in order to: (1) introduce and discuss some additional DOM properties (e.g. accessing sibling elements), and (2) introduce you to how you might want to use a variable to track the state of your program. Regarding item (2): in order for your browser to show you your next photo, you have to track what photo they're currently viewing, and this requires using a variable. 
+Please download the tutorial04 files and save them to your repo folder. Then, open the entire tutorial04 folder in Atom. To view how each of the projects should work upon completion, please see this screencast.
 
-Before you begin homework 3, please review the concepts below, and complete the exercises:
+## Part 1: Font Switcher
+Open font-switcher/index.html in Atom, and note the HTML tags. Also note, right before the close of the body tag, the script tag that links to your JavaScript file:
 
-## Step 1: Review the DOM Rules
-
-### What element do you want to target?
-Use a `document.querySelector("your_selector")`, where the selector goes inside of the parenthesis. Recall: use a class selector, a tag selector, or an id selector
-
-### Do you want to change its style?
-Then use this pattern:
-```js
-document.querySelector("your_selector").style.some_property = some_value;
+```html
+<script src="js/index.js"></script>
 ```
 
-Note that you would replace `your_selector`, `some_property` and `some_value` with valid values. Refer to the cheatsheet from [Tutorial 4](10tutorial) to see a list of some of the style properties.
 
-### Do you want to change its attribute?
-Then use this pattern:
+Open `font-switcher/js/index.js` in Atom, and uncomment the section at the bottom by deleting the /* and */ symbols:
+
 ```js
-document.querySelector("your_selector").some_attribute = some_value;
+/*
+document.querySelector(???).onclick = makeBigger;
+document.querySelector(???).onclick = makeSmaller;
+*/
 ```
 
-Note that you would replace `your_selector`, `some_attribute` and `some_value` with valid values. Refer to the cheatsheet from [Tutorial 4](10tutorial) to see a list of some common attributes.
-
-### Get familiar with some new DOM-related vocabulary
-* nextElementSibling (<a href="https://developer.mozilla.org/en-US/docs/Web/API/NonDocumentTypeChildNode/nextElementSibling" target="_blank">docs</a>)
-* previousElementSibling (<a href="https://developer.mozilla.org/en-US/docs/Web/API/NonDocumentTypeChildNode/previousElementSibling" target="_blank">docs</a>)
-
-## Step 2: Complete the DOM exercises
-1. Open your JavaScript console
-2. Select the first `h1` tag for this page. 
-    * modify its innerHTML
-    * modify its font color
-3. Select the first img tag for this page.
-    * modify its `src` attribute to point to another image (copy any image url that you find online).
-    * update the `innerHTML` of the img element's `previousElementSibling`
-    * update the `innerHTML` of the img element's `nextElementSibling`
+Replace the ??? with the correct selector, so that your makeBigger function and makeSmaller function get attached to the correct DOM elements.
 
 
-
-## Step 2: Start Homework 3
-WHen you're done from the above, please download and begin [homework 3](../assignments/hw3).
+Finally, modify both the body of the makeBigger and makeSmaller functions so that they modify the font size of the div that is assigned the class of “content”.
 
 
+## Part 2: Theme Switcher
+Repeat the same general process with theme-switcher, by:
+1. Opening `theme-switcher/js/index.js`, uncommenting the event handler code at the bottom, and replacing the ??? with the correct selectors, and
+2. Modifying the bodies of the defaultTheme, oceanTheme, and desertTheme functions so that the theme of the div tag with the class of “container” gets updated with the correct class. To see the themes, open the `theme-switcher/css/style.css` file and scroll to the bottom.
+
+## Part 3: Page Turner
+Repeat the same general process with page-turner, by:
+1. Opening `page-turner/js/index.js`, uncommenting the event handler code at the bottom, and replacing the ??? with the correct selectors, and
+2. Modifying the bodies of the chapter1, chapter2, and chapter3 functions so that they modify the contents of the div that is assigned the class of “content.”
+
+## Turn in your files via GitHub
+1. Ensure that your `tutorial04` folder is inside of your repo folder.
+2. Check the status of your repo:<br>`$ git status`<br>It should say that your tutorial04 files are “untracked”
+3. Add all of your tutorial04 files to the list of files that are tracked by the repo:<br>`$ git add tutorial04`
+4. Check the status of your repo again:<br>`$ git status`<br>It should now say that you tutorial04 files are being tracked.
+5. Now, commit your new tutorial04 files to the repo:<br>`$ git commit -m "Adding my tutorial04 to the repo"`
+6. Finally, “push” your files to GitHub:<br>`$ git push`
+7. Paste a link to your GitHub repo and to your GitHub pages 
+
+## Cheat Sheet
+### Selector Methods 
+
+| Method | Example |
+|--|--|
+| getElementById() | document.getElementById("my_element") |
+| querySelector() | document.querySelector("#my_element")<br>document.querySelector("p")<br>document.querySelector(“.my-announcements") |
+| querySelectorAll() | document.querySelectorAll("p") |
+| getElementsByTagName() | document.getElementsByTagName("div") |
+| getElementsByClassName() | document.getElementsByClassName(".panel") |
+
+### Some examples of HTML attributes you can modify
+
+| Attribute | Example |
+|--|--|
+| className | document.querySelector("div").className = "panel"; |
+| innerHTML | document.querySelector("div").innerHTML = "hi"; |
+| src (for images) | document.getElementsByTagName("div") |
+| href (for links) | document.getElementsByClassName(".panel") |
+
+
+### Some examples of style properties you can modify
+
+| Property | Example |
+|--|--|
+| width | document.querySelector("div").style.width = "200px"; |
+| height | document.querySelector("div").style.width = "200px"; |
+| background-color | document.querySelector("div").style.backgroundColor = "hotpink"; |
+| border-width | document.querySelector("div").style.borderWidth = "5px"; |
+| padding | document.querySelector("div").style.padding = "10px"; |
+| display | document.querySelector("div").style.display = "none"; |

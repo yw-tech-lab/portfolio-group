@@ -7,7 +7,7 @@ type: homework
 due_date: 2021-05-05
 ordering: 2 
 points: 10
-draft: 1
+draft: 0
 ---
 
 <style>

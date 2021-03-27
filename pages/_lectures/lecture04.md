@@ -9,10 +9,10 @@ slides:
      title: Intro to CSS & the DOM
 num: 4
 due_date: 2021-04-12
-videos:
-   - url: https://northwestern.zoom.us/rec/share/6elLBquo70lOZNbwx2HkVKkMMIXJaaa81XIcqfFczBzdN3WumAfJ0n6CZbpGmoIF
-     title: Intro to CSS & the DOM
-     live: 1
+# videos:
+#    - url: ""
+#      title: Intro to CSS & the DOM
+#      live: 1
 include_page: "activities/activity1.md"
 readings:
    - url: ../css-reference/rules-of-thumb/

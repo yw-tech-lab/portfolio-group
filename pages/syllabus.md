@@ -4,7 +4,6 @@ title: Syllabus
 permalink: /syllabus/
 ---
 
-
 | **Term** | Spring, 2021 |
 | **Course** | EECS 130: Tools and Technologies of the Worldwide Web |
 | **Prerequisites** | No experience necessary! |
@@ -59,7 +58,7 @@ Consider office hours as an extension of the class, and we want you to rely on t
 ### Software
 As this is a programming course, you will be using the free software programs listed below. This software will take about 3GB of space to install. Installing and configuring programming software can be a hassle, but it is part of the process of developing your working computing knowledge.  We will help you.
 
-* Atom or Visual Studio Code
+* Visual Studio Code
 * Git and Github
 
 

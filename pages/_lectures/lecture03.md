@@ -2,18 +2,20 @@
 layout: module
 title: Intro to Semantic Tags + Crawlers + Jaws
 type: lecture
-draft: 1
+draft: 0
 num: 3
 due_date: 2021-04-07
 slides:
    - url: https://docs.google.com/presentation/d/1BlaesCoO-FVOl7WI-ycxh8OE5wmm7Q-tvSFBUq2gmhk/edit?usp=sharing
      title: Semantic Tags and Web Accessibility
-videos: 
-   - url: https://northwestern.zoom.us/rec/share/6cB0LJ-v3VJLBYXR60_TQ5ITI7Xpeaa82nAeqPEKzBxIXUyQJqnB7xZsNdt3-5TY
-     title: |
-        Lecture: Semantic Tags and Web Accessibility
-     live: 1
-
+# videos: 
+#    - url: ""
+#      title: Recorded Lecture Video
+#      live: 1
+description:
+   - The importance of structure
+   - Search Engines
+   - Web Crawlers & SEO
 readings:
    - url: ../html-reference/semantic-tags/
      title: |

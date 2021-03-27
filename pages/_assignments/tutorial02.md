@@ -165,8 +165,3 @@ This will generate a link to your GitHub site. A few caveats:
 Just paste in your links to Canvas:
 1. A link to your GitHub repository
 2. A link to your GitHub Pages
-
-
-
-
-
