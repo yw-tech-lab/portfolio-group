@@ -1,33 +1,43 @@
 ---
 layout: module
-title: Intro to Visual Design - Part I
+title: |
+    Intro to CSS: The DOM, Selectors, & the Cascade
 type: lecture
 draft: 1
-num: 5
 slides:
-   - url: https://docs.google.com/presentation/d/1inUocjpoXTxhqPm2awyO1MMgTHJj4BPWzCXzVEQQzjA/edit?usp=sharing
-     title: |
-        Rules of Composition & Fonts
-description:
-  - Visual Design
-  - Best Practices
-due_date: 2021-04-14
+   - url: https://docs.google.com/presentation/d/10w0PWm6NJ0aUQfwbP3AIKqj9x1Y4PJdLo47CEIpJyEE/edit?usp=sharing
+     title: Intro to CSS & the DOM
+num: 5
+due_date: 2021-04-12
+# videos:
+#    - url: ""
+#      title: Intro to CSS & the DOM
+#      live: 1
+include_page: "activities/activity1.md"
 readings:
-  - title: "The Non-Designer's Design Book, Chapter 1"
-    url: "https://canvas.northwestern.edu/files/8620704/download?download_frd=1"
-    author: "Williams, Robin" 
-    date: 2015
-  - title: "The Non-Designer's Design Book, Chapter 2"
-    url: "https://canvas.northwestern.edu/files/8205183/download?download_frd=1"
-    author: "Williams, Robin" 
-    date: 2015
-videos:
-   - url: https://northwestern.zoom.us/rec/share/uZckfrur1D9LSJWc6EX8ZvYsEd3ZX6a8hiMX-PBcmBmwAWqoPqaI3Shm3uhRqMT1
-     title: Visual Design Part 1
-     live: 1
-include_page: "activities/activity2.md"
+   - url: ../css-reference/rules-of-thumb/
+     title: |
+        CSS Rules of Thumb
+     source: CS 130 Course Website
+     internal: 1
+   - url: ../css-reference/selectors/
+     title: Selectors
+     source: CS 130 Course Website
+     internal: 1
+     linkedin: 1
+   - url: ../css-reference/color/
+     title: Color
+     source: CS 130 Course Website
+     internal: 1
+   - url: ../css-reference/fonts/
+     title: Text & fonts
+     source: CS 130 Course Website
+     internal: 1
+   - url: ../css-reference/box-model/
+     title: The Box Model
+     source: CS 130 Course Website
+     internal: 1
 
 ---
 
-Today we will be discussing some principles of good composition and visual design (which  will continue into next week).
-<img style="width:600px;display:block;margin:auto;" src="{{site.baseurl}}/assets/images/lecture12/composition.png" />
+<img class="module-image" src="{{site.baseurl}}/assets/images/lectures/lecture04-css.png" /> Today we are going to go over some of the core rules of CSS and do a practice activity (see below). I **absolutely recommend** that you review the LinkedIn Learning videos that are referenced in the supplemental materials. Whereas you can kind of wing it with HTML tags and look them up as needed, having a sense of how CSS works is essential to making professional-looking websites. When you have completed this lesson, you should be familiar with selectors, how to specify color values, some font properties, and the "box model."

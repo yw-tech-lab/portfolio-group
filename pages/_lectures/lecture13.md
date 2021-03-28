@@ -1,25 +1,24 @@
 ---
 layout: module
-title: |
-    Working with Data: AJAX & Web APIs (Part 1)
+title: Lists, Dictionaries, and Templates
 type: lecture
 draft: 1
 num: 13
-due_date: 2021-05-12
+due_date: 2021-05-10
 slides:
-   - title: Introduction to AJAX & Fetch
-     url: https://docs.google.com/presentation/d/1cC72rAuVbVMbMn4J2ykT3Ayt7HPXS1pjpmGmZq0OjqM/edit?usp=sharing
+   - url: https://docs.google.com/presentation/d/1EVuiPopIu9qoMM_nGkbrSS1O0EMTw4FHJ1La_hh-S_Y/edit?usp=sharing
+     title: Lists, Dictionaries, and Templates
 
-include_page: "includes/fetch.md"
 videos:
-   - url: https://northwestern.zoom.us/rec/share/2spwN4Gh219OUtLX0EbjVIcAE9z1X6a81CBK-ftemBlusKTAU9W0_4WBd1vxRC0p?startTime=1589835559000
-     title: Working with Data
+   - url: https://northwestern.zoom.us/rec/share/4sBIcuDgyGJLSYGQyHzlaKgOGZ7qeaa8gClPrKEOzE5cS_kwp07QbP1WVucg6sXF?startTime=1589403533000
+     title: Lists, Dictionaries, and Templates
      live: 1
+
 ---
 
-<a class="nu-button" href="/spring2021/course-files/lectures/lecture13.zip">
+<a class="nu-button" href="/spring2021/course-files/lectures/lecture12.zip">
     download lecture files 
     <i class="fas fa-download"></i>
 </a>
 
-Today, we are going to be learning about JavaScript’s fetch API, and how to use it to retrieve data from various content providers (i.e. servers). 
+Today we are transitioning into creating data-driven templates, which will help us to create dynamic, interactive, web apps. We will begin by introducting two new data types -- lists and objects -- and then examining how we can use data with HTML, CSS, and JavaScript via templates.

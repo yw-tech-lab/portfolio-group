@@ -1,10 +1,10 @@
 ---
-layout: lecture
+layout: two-column
 title: Extended Office Hours
 type: lecture
 draft: 1
 num: 17
-due_date: 2021-05-26
+due_date: 2021-05-24
 ---
 
 ### Please Sign Up for an OH Slot

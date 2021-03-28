@@ -1,45 +1,42 @@
 ---
 layout: module
-title: Intro to Semantic Tags + Crawlers + Jaws
+title: Web Infrastructure
 type: lecture
+due_date: 2021-04-05
 draft: 0
+image_url: assets/images/internet-backbone-map.png
+show_schedule: 1
 num: 3
-due_date: 2021-04-07
+description: 
+   - Intro to the Internet
+   - Intro to the Web
+readings:
+   - url: https://www.vox.com/2014/6/16/18076282/the-internet
+     title: The Internet Explained
+     author: Timothy B. Lee
+     date: 2015
+   - url: https://www.vox.com/a/internet-maps
+     title: 40 Maps That Explain the Internet
+     author: Timothy B. Lee
+     date: 2014
+   - url: https://webfoundation.org/about/vision/history-of-the-web/
+     title: History of the Web
+     source: The World Wide Web Foundation
 slides:
-   - url: https://docs.google.com/presentation/d/1BlaesCoO-FVOl7WI-ycxh8OE5wmm7Q-tvSFBUq2gmhk/edit?usp=sharing
-     title: Semantic Tags and Web Accessibility
+   - url: https://docs.google.com/presentation/d/1i3y1jS6dx7fDj6bO0UCerYaP3gU3XDMggRSlaWsyBWs/edit?usp=sharing
+     title: Intro to Web Infrastructure
 # videos: 
 #    - url: ""
 #      title: Recorded Lecture Video
 #      live: 1
-description:
-   - The importance of structure
-   - Search Engines
-   - Web Crawlers & SEO
-readings:
-   - url: ../html-reference/semantic-tags/
-     title: |
-        HTML Resources: Semantic Tags
-     author: "Course staff"
-     source: CS 130 Course Website
-     date: 2021
-     internal: 1
-   - url: https://www.linkedin.com/learning/collections/6619359376476033024?u=75814418
-     title: |
-       Playlist 2: Structuring Page Content w/Semantic Tags 
-     author: James Williamson
-     linkedin: 1
-     sections:
-       - The value of structure
-       - Controlling document outlines
-       - The nav element
-       - The article element
-       - The section element
-       - The aside element
-       - The div element
-       - Other semantic elements
+
+# quiz_url: IDK
+
 
 ---
+<img class="module-image" src="/spring2021/assets/images/internet-backbone-map.png" /> 
 
+## Course Format
+For the Monday and Wednesday class sessions, we will post, in advance (ideally), some slides, videos, coding activities, and / or readings that you will be expected to do on your own. Then, during the regularly scheduled class time, we will be discussing the concepts and ideas synchronously (i.e. live) on Zoom, doing Q&A, and doing activities. During Zoom lecture, we can go over anything you want, and I can do some live-coding activities and pause to make sure folks are getting their questions answered.
 
-Today is another conceptual day, where we will talk about the significance of semantic tags for web crawlers and screen readers. Remember: humans are but one user of your website, but robots are another. As such, making your content accessible to humans and machines will ensure better usability and discoverability.
+Today's readings provide interesting background and context for the web / internet. You're not going to be tested on them, but you should still do them in order to have a working knowledge of how the internet works. The readings shouldn't take too long!

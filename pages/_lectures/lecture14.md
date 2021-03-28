@@ -1,22 +1,25 @@
 ---
 layout: module
-title: Making your app interactive with third-party data
+title: |
+    Working with Data: AJAX & Web APIs (Part 1)
 type: lecture
 draft: 1
 num: 14
-due_date: 2021-05-17
+due_date: 2021-05-12
 slides:
-   - title: Making your app interactive with third-party data
-     url: https://docs.google.com/presentation/d/1tJfkA8Ans9AeokARRGbh-ktENYf_TeXlhbqsRggkUv8/edit?usp=sharing
+   - title: Introduction to AJAX & Fetch
+     url: https://docs.google.com/presentation/d/1cC72rAuVbVMbMn4J2ykT3Ayt7HPXS1pjpmGmZq0OjqM/edit?usp=sharing
+
+include_page: "includes/fetch.md"
 videos:
-   - url: https://northwestern.zoom.us/rec/share/tN1MKJff81tIW4Xuq1vZcJ4oHKvHaaa8hCcY8_YKyxku3yuCvqfFX2CY8slnICrt?startTime=1590008321000
-     title: Working with web services
+   - url: https://northwestern.zoom.us/rec/share/2spwN4Gh219OUtLX0EbjVIcAE9z1X6a81CBK-ftemBlusKTAU9W0_4WBd1vxRC0p?startTime=1589835559000
+     title: Working with Data
      live: 1
 ---
 
-<a class="nu-button" href="/spring2021/course-files/lectures/lecture14.zip">
+<a class="nu-button" href="/spring2021/course-files/lectures/lecture13.zip">
     download lecture files 
     <i class="fas fa-download"></i>
 </a>
 
-Today, we will continue working with the JavaScript’s fetch API -- using it to query data from various content providers (i.e. servers), and create different interface elements. Then we will take a look at homework 4. I've also provided a few sample files to show you how you might make an interactive map or a chart using various third-party libraries.
+Today, we are going to be learning about JavaScript’s fetch API, and how to use it to retrieve data from various content providers (i.e. servers). 

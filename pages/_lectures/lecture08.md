@@ -1,29 +1,19 @@
 ---
 layout: module
-title: Practice manipulating the DOM with JavaScript
+title: CSS Wrap-Up
 type: lecture
 draft: 1
 num: 8
-due_date: 2021-04-26
 slides:
-   - url: https://docs.google.com/presentation/d/1WWHJ0Y9qTqyJfjJEelH48LwROKBbq-W_U6LpS4jjdf0/edit?usp=sharing
-     title: Intro to JavaScript
-videos: 
-   - url: https://northwestern.zoom.us/rec/share/y8VacI_i8z9JBdLI9UDiAL89P6jKT6a80CBN-qIPnk7cf9dosewMLdOAyg-Gfw1m?startTime=1588193760000
-     title: What is JavaScript?
-     live: 1
-
-readings:
-   - url: https://learning.oreilly.com/playlists/d99f7433-24b8-4370-8e33-f2bb8429e702
+   - url: https://docs.google.com/presentation/d/1Qy9jA4waThszky2JmJQLuJNU-mImagR7XWn2hvIBs0Q/edit?usp=sharing
      title: |
-        JavaScript: Intro to the DOM
-     author: "Laurence Svekis"
-     source: "O'Reilly"
-     date: 2021
-     internal: 1
+        Grid, Media Queries, and Animations / Transitions
 
+videos: 
+   - url: https://northwestern.zoom.us/rec/share/yM94EJvb7kRIGaPL023jcakjMN6_eaa8gCgd-PYEnkiauej5vwiSFu0rdQ5hrswg
+     title: CSS Transitions and Media Queries
+     live: 1
+due_date: 2021-04-21
 ---
 
-Today we will begin examining JavaScript, and will therefore need to learn a little bit of programming. We will begin by practicing how to programmatically manipulate the DOM (in a way that is very similar to using CSS selectors). You will have on JavaScript and the DOM this week.
-
-I have also assigned you a series of JavaScript videos from O'Reilly media that I highly recommend that you watch if you are new to JavaScript and the DOM.
+Today will be our last day of CSS formal instruction, though you will still get a lot more practice in [HW2](../assignments/hw2). We will be doing a series of activities -- just so you can see what's possible. Try to have fun with these ideas. There's a lot of syntax, but perhaps these exercises will give you some ideas for your final project.

@@ -1,43 +1,45 @@
 ---
 layout: module
-title: |
-    Intro to CSS: The DOM, Selectors, & the Cascade
+title: Intro to Semantic Tags + Crawlers + Jaws
 type: lecture
-draft: 1
-slides:
-   - url: https://docs.google.com/presentation/d/10w0PWm6NJ0aUQfwbP3AIKqj9x1Y4PJdLo47CEIpJyEE/edit?usp=sharing
-     title: Intro to CSS & the DOM
+draft: 0
 num: 4
-due_date: 2021-04-12
-# videos:
+due_date: 2021-04-07
+slides:
+   - url: https://docs.google.com/presentation/d/1BlaesCoO-FVOl7WI-ycxh8OE5wmm7Q-tvSFBUq2gmhk/edit?usp=sharing
+     title: Semantic Tags and Web Accessibility
+# videos: 
 #    - url: ""
-#      title: Intro to CSS & the DOM
+#      title: Recorded Lecture Video
 #      live: 1
-include_page: "activities/activity1.md"
+description:
+   - The importance of structure
+   - Search Engines
+   - Web Crawlers & SEO
 readings:
-   - url: ../css-reference/rules-of-thumb/
+   - url: ../html-reference/semantic-tags/
      title: |
-        CSS Rules of Thumb
+        HTML Resources: Semantic Tags
+     author: "Course staff"
      source: CS 130 Course Website
+     date: 2021
      internal: 1
-   - url: ../css-reference/selectors/
-     title: Selectors
-     source: CS 130 Course Website
-     internal: 1
+   - url: https://www.linkedin.com/learning/collections/6619359376476033024?u=75814418
+     title: |
+       Playlist 2: Structuring Page Content w/Semantic Tags 
+     author: James Williamson
      linkedin: 1
-   - url: ../css-reference/color/
-     title: Color
-     source: CS 130 Course Website
-     internal: 1
-   - url: ../css-reference/fonts/
-     title: Text & fonts
-     source: CS 130 Course Website
-     internal: 1
-   - url: ../css-reference/box-model/
-     title: The Box Model
-     source: CS 130 Course Website
-     internal: 1
+     sections:
+       - The value of structure
+       - Controlling document outlines
+       - The nav element
+       - The article element
+       - The section element
+       - The aside element
+       - The div element
+       - Other semantic elements
 
 ---
 
-<img class="module-image" src="{{site.baseurl}}/assets/images/lectures/lecture04-css.png" /> Today we are going to go over some of the core rules of CSS and do a practice activity (see below). I **absolutely recommend** that you review the LinkedIn Learning videos that are referenced in the supplemental materials. Whereas you can kind of wing it with HTML tags and look them up as needed, having a sense of how CSS works is essential to making professional-looking websites. When you have completed this lesson, you should be familiar with selectors, how to specify color values, some font properties, and the "box model."
+
+Today is another conceptual day, where we will talk about the significance of semantic tags for web crawlers and screen readers. Remember: humans are but one user of your website, but robots are another. As such, making your content accessible to humans and machines will ensure better usability and discoverability.

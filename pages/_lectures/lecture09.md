@@ -1,30 +1,29 @@
 ---
 layout: module
-title: Building blocks of programming
+title: Practice manipulating the DOM with JavaScript
 type: lecture
 draft: 1
 num: 9
-due_date: 2021-04-28
+due_date: 2021-04-26
 slides:
-   - url: https://docs.google.com/presentation/d/1elm49svtvPFtWlqn7AWpgkyp7vHo5kl8lbxIBWRmwQo/edit?usp=sharing
-     title: Intro to Programming
+   - url: https://docs.google.com/presentation/d/1WWHJ0Y9qTqyJfjJEelH48LwROKBbq-W_U6LpS4jjdf0/edit?usp=sharing
+     title: Intro to JavaScript
+videos: 
+   - url: https://northwestern.zoom.us/rec/share/y8VacI_i8z9JBdLI9UDiAL89P6jKT6a80CBN-qIPnk7cf9dosewMLdOAyg-Gfw1m?startTime=1588193760000
+     title: What is JavaScript?
+     live: 1
+
 readings:
-   - url: https://learning.oreilly.com/playlists/1e2e5976-709d-447c-8475-d6826d6ac78c
+   - url: https://learning.oreilly.com/playlists/d99f7433-24b8-4370-8e33-f2bb8429e702
      title: |
-        JavaScript: Intro to ES6
+        JavaScript: Intro to the DOM
      author: "Laurence Svekis"
      source: "O'Reilly"
      date: 2021
-videos:
-   - url: https://northwestern.zoom.us/rec/share/1fZXHZz890JLWc_pwkOOGfY-H4rKT6a8gHcd86YOxE9-R_aizLgZ6vne6dFulrBl?startTime=1588625766000
-     title: Data Types & Variables
-     live: 1
-
+     internal: 1
 
 ---
 
-<a class="nu-button" href="/spring2021/course-files/lectures/lecture09.zip">
-    download lecture files 
-    <i class="fas fa-download"></i>
-</a>
-<a href="http://turing.library.northwestern.edu/login?url=https://www.safaribooksonline.com/library/view/temporary-access/" target="_blank" class="button">Safari Books Login <i class="fas fa-link"></i></a>
+Today we will begin examining JavaScript, and will therefore need to learn a little bit of programming. We will begin by practicing how to programmatically manipulate the DOM (in a way that is very similar to using CSS selectors). You will have on JavaScript and the DOM this week.
+
+I have also assigned you a series of JavaScript videos from O'Reilly media that I highly recommend that you watch if you are new to JavaScript and the DOM.

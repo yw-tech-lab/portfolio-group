@@ -1,24 +1,30 @@
 ---
 layout: module
-title: Functions, events, and control
+title: Building blocks of programming
 type: lecture
 draft: 1
 num: 10
-due_date: 2021-05-03
+due_date: 2021-04-28
 slides:
-   - url: https://docs.google.com/presentation/d/1AC_oe2k0vgmLAyRL9p4DiNeoVtDDCeF5IlEBPcybv-Q/edit?usp=sharing
-     title: Functions + Events; Control
-
+   - url: https://docs.google.com/presentation/d/1elm49svtvPFtWlqn7AWpgkyp7vHo5kl8lbxIBWRmwQo/edit?usp=sharing
+     title: Intro to Programming
+readings:
+   - url: https://learning.oreilly.com/playlists/1e2e5976-709d-447c-8475-d6826d6ac78c
+     title: |
+        JavaScript: Intro to ES6
+     author: "Laurence Svekis"
+     source: "O'Reilly"
+     date: 2021
 videos:
-   - url: https://northwestern.zoom.us/rec/share/3ON3FJ3OznpObon0zniPcJcjF771aaa81SUd_qANnxmmddmScNEIFDQp0j2Q4Ofs?startTime=1588798621000
-     title: Functions & Events
+   - url: https://northwestern.zoom.us/rec/share/1fZXHZz890JLWc_pwkOOGfY-H4rKT6a8gHcd86YOxE9-R_aizLgZ6vne6dFulrBl?startTime=1588625766000
+     title: Data Types & Variables
      live: 1
- 
+
+
 ---
 
-<a class="nu-button" href="/spring2021/course-files/lectures/lecture10.zip">
+<a class="nu-button" href="/spring2021/course-files/lectures/lecture09.zip">
     download lecture files 
     <i class="fas fa-download"></i>
 </a>
-
-In today's lecture, we will continue reviewing some programming rules in preparation for next week's material, where we move into working with live data (Twitter, YouTube, SoundCloud, Flickr, & Yelp).
+<a href="http://turing.library.northwestern.edu/login?url=https://www.safaribooksonline.com/library/view/temporary-access/" target="_blank" class="button">Safari Books Login <i class="fas fa-link"></i></a>
