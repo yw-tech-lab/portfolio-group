@@ -13,7 +13,7 @@ layout: default
                 <th>Week</th>
                 <th>Assignment</th>
                 <th>Description</th>
-                <th>Points</th>
+                <!-- <th>Points</th> -->
                 <th>Due</th>
                 <th>Days Left</th>
             </tr>
@@ -59,7 +59,7 @@ layout: default
                     {% endif %}                   
                 </td>
                 <td>{{ assignment.title }}</span>
-                <td>{{ assignment.points }} points</td>
+                <!-- <td>{{ assignment.points }} points</td> -->
                 <td>{{ assignment.due_date | date: "%a, %m/%d" }}</td>
                 <td>
                     <span class="due-date">
