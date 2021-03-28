@@ -1,11 +1,11 @@
 ---
-layout: module
+layout: two-column
 title: CSS Lab
 type: tutorial
 abbreviation: Tutorial 4
 draft: 1
 num: 4
-points: 2
+points: 2.5
 due_date: 2021-04-23
 
 ---

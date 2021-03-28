@@ -1,9 +1,9 @@
 ---
-layout: module
+layout: assignment-two-column
 title: Installation & Configuration
 type: tutorial
 draft: 0
-points: 2
+points: 2.5
 abbreviation: Tutorial 1
 show_schedule: 1
 num: 1
@@ -14,7 +14,7 @@ due_date: 2021-04-02
 ---
 
 {:.blockquote-no-margin}
-> **Assumptions:** This tutorial assumes that you have reviewed the materials and videos assigned in [lecture 1](/spring2021/lectures/lecture01).
+> **Assumptions:** This tutorial assumes that you have reviewed the materials and videos assigned in [lecture 2](/spring2021/lectures/lecture02).
 
 ## Part 1. Setting Up Your Development Environment
 

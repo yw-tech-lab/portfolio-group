@@ -1,6 +1,6 @@
 ---
 layout: lecture
-title: Group Meetings
+title: TBD
 type: lecture
 draft: 1
 num: 16

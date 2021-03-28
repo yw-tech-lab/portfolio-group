@@ -14,10 +14,10 @@ due_date: 2021-03-30
 #      title: Recorded Lecture Video
 #      live: 1
 slides:
-   - url: https://docs.google.com/presentation/d/1yhY5SFHT6dqzVsXFQVCdENigLfaLit9wtp6N-q7ZUls/edit#slide=id.g555d87b1a1_0_0
+   - url: https://docs.google.com/presentation/d/1DgQE_bBn524_QU3U3GmEhcjdWYreD6CvoxySYy0rmTI/edit#slide=id.g555d87b1a1_0_0
      title: Course Logistics
-   - url: https://docs.google.com/presentation/d/10R361iQrdTlqigyRhOUSk4DCfFvN1dvQofcN1d6_Zs0/edit?usp=sharing
-     title: Intro to Browsers & Web Languages
+#    - url: https://docs.google.com/presentation/d/10R361iQrdTlqigyRhOUSk4DCfFvN1dvQofcN1d6_Zs0/edit?usp=sharing
+#      title: Intro to Browsers & Web Languages
 
 ---
 

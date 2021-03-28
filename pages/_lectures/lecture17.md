@@ -1,6 +1,6 @@
 ---
 layout: two-column
-title: Extended Office Hours
+title: TBD
 type: lecture
 draft: 1
 num: 17

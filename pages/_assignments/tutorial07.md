@@ -1,12 +1,12 @@
 ---
-layout: module
+layout: assignment-two-column
 title: Loops Practice
 type: tutorial
 abbreviation: Tutorial 7
 draft: 1
 due_date: 2021-05-14
 num: 7
-points: 2
+points: 2.5
 description:
     - Working with lists, objects, and remote data (via AJAX)
 ---

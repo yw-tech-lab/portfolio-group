@@ -1,11 +1,11 @@
 ---
-layout: module
+layout: two-column
 title: CSS Grid & Media Queries
 type: tutorial
 abbreviation: Tutorial 3
 draft: 1
 num: 3
-points: 2
+points: 2.5
 due_date: 2021-04-16
 description: 
     - Practice with CSS Grid

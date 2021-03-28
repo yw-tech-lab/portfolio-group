@@ -1,11 +1,10 @@
 ---
-layout: two-column
-title: Student's Choice
+layout: assignment-two-column
+title: TBD
 type: tutorial
 abbreviation: Tutorial 9
 draft: 1
 num: 9
-points: 2
 due_date: 2021-05-28
 description:
     - GET, POST, PUT, and DELETE

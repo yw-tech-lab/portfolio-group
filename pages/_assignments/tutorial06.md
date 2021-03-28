@@ -1,5 +1,5 @@
 ---
-layout: module
+layout: assignment-two-column
 title: |
     JavaScript & the DOM: Part 2
 type: tutorial
@@ -7,7 +7,7 @@ abbreviation: Tutorial 6
 draft: 1
 due_date: 2021-05-07
 num: 6
-points: 2
+points: 2.5
 description:
     - Functions and Event Handlers
 ---

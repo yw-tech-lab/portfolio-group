@@ -1,11 +1,11 @@
 ---
-layout: module
+layout: two-column
 title: Practice manipulating the DOM with JavaScript
 type: tutorial
 abbreviation: Tutorial 5
 draft: 1
 num: 5
-points: 2
+points: 2.5
 due_date: 2021-04-30
 
 ---

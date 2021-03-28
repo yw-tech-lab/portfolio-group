@@ -20,20 +20,17 @@ Taking this course means committing – for 10 weeks – to practicing your emer
 
 ## Course Format
 ### Lectures
-Lectures will be taught both asynchronously and live:
-
-1. I will introduce some of the course content via pre-recorded lectures that you will be expected to review. I will post these lectures on the course website (on the page associated with the particular lesson).
-2. Then, during regularly scheduled class time Mondays and Wednesdays (from 2-2:50PM Central Time), we will do interactive Q&A sessions on Zoom together, with professor Van Wart. During these times, we will do some coding together, and go over some concepts and techniques, and get your questions answered. All lectures will be recorded, and attendance is encouraged (because it's much more interesting for me to talk to people), but not required.
+Lectures will take place during class time, and will be recorded. I will also assign you readings and video tutorials, which will be posted on the course website.
 
 ### Tutorial Sessions
-This course also involves weekly small-group tutorial sessions where you will work with a member of the teaching staff, beginning in Week 2. Tutorial sessions will be run synchronously (live) by your assigned peer mentors via Zoom. During each tutorial session, you will work through an exercise together with your peer mentor, to advance your understanding of various web concepts. There are two ways to earn full participation credit in each tutorial session:
+This course also involves weekly small-group tutorial sessions where you will work with a member of the teaching staff, beginning in Week 1. Tutorial sessions will be run synchronously (live) by your assigned peer mentors via Zoom. During each tutorial session, you will work through an exercise together with your peer mentor, to advance your understanding of various web concepts. 
 
-1. By attending them (synchronously), working through the exercises, and asking questions (as they arise).
-2. By turning in the tutorial exercise(s) before the tutorial session. Tutorial exercises will be posted at the beginning of the week (at least 48 hours in advance).
+All Tutorials are due on Friday at 11:59PM and are graded pass / fail. We will typically not grade you on attendance. That said: 
 
-I (prof. Van Wart) have a strong preference for option #1, because it’s a form of low-pressure, built-in accountability that will help you learn. That said, it’s up to you. Attending and working in the tutorials is worth 10% of your grade. But you have to actually work – if you zone out, we will know, and will not give you credit.
+* Your attendance will be required for some tutorial sessions, as you will be presenting your final project and getting feedback from others.
+* Attending the tutorial is a form of low-pressure, built-in accountability that will help you learn.
 
-Following the submission deadline, a solution and walkthrough of each problem will be made available via Canvas.
+Following the submission deadline, solutions will be made available via Canvas.
 
 ### Homework and Projects
 The majority of your grade will be based on 4 homework assignments and one final project -- creating a website of your choosing -- that you will complete over the course of the quarter. 
@@ -83,13 +80,11 @@ This course will consist of weekly homework assignments and tutorial exercises, 
 
 {:.small}
 | **4 Homeworks** | 4 x 10 Points | 40% |
-| **1 Project** | 1 x 46 Points | 46% |
-| **7 Tutorials** | 7 x 2 Points | 14% |
+| **1 Project** | 1 x 20 Points | 40% |
+| **8 Tutorials** | 8 x 2.5 Points | 20% |
 | | | **100%** |
 
-Ordinarily, final grades are assigned on a fixed scale: 93-100 is an A, 90-92.99 is an A-, 87-89.99 is a B+, etc. However in light of the COVID-19 situation, the provost has instituted Pass/No Pass grading for all undergraduate students. In this class, that means that if you earn at least 70 points (i.e. a 70% or above), you pass.
-
-To me, the P/NP option is a wonderful opportunity to explore ideas without the stress. That said, I absolutely encourage you to complete ALL of the assignments to the best of your ability. Some other logistics:
+Final grades are assigned on a fixed scale: 93-100 is an A, 90-92.99 is an A-, 87-89.99 is a B+, etc. Some other logistics:
 
 1. Final course grades will not be rounded or curved.
 2. We will NOT be using the final exam time for this class.

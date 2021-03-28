@@ -1,12 +1,12 @@
 ---
-layout: module
+layout: assignment-two-column
 title: Getting Started with GitHub
 type: tutorial
 abbreviation: Tutorial 2
 draft: 1
 due_date: 2021-04-09
 num: 2
-points: 2
+points: 2.5
 description:
     - Setting up GitHub
 ---
