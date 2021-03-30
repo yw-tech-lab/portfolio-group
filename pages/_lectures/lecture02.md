@@ -5,9 +5,6 @@ type: lecture
 draft: 0
 show_schedule: 1
 num: 2
-description:
-  - Browsers Continued
-  - Overview of HTML
 due_date: 2021-03-31
 # videos: 
 #    - url: ""
