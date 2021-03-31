@@ -10,9 +10,10 @@ due_date: 2021-03-31
 #    - url: ""
 #      title: Recorded Lecture Video
 #      live: 1
+exercise_url: lecture02.zip
 # slides:
-#    - url: https://docs.google.com/presentation/d/10R361iQrdTlqigyRhOUSk4DCfFvN1dvQofcN1d6_Zs0/edit?usp=sharing
-#      title: Intro to Browsers & Web Languages
+#    - url: https://docs.google.com/presentation/d/1ymhwnS5zcr_O9ioKKZZKKg0aq6bUt_uE1BJOsssYKzI/edit?usp=sharing
+#      title: Intro to HTML
 readings:
    - url: ../html-reference/
      title: HTML Resources
