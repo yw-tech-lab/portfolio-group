@@ -11,9 +11,9 @@ due_date: 2021-03-31
 #      title: Recorded Lecture Video
 #      live: 1
 exercise_url: lecture02.zip
-# slides:
-#    - url: https://docs.google.com/presentation/d/1ymhwnS5zcr_O9ioKKZZKKg0aq6bUt_uE1BJOsssYKzI/edit?usp=sharing
-#      title: Intro to HTML
+slides:
+   - url: https://docs.google.com/presentation/d/1ymhwnS5zcr_O9ioKKZZKKg0aq6bUt_uE1BJOsssYKzI/edit?usp=sharing
+     title: Intro to HTML
 readings:
    - url: ../html-reference/
      title: HTML Resources
