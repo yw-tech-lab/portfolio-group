@@ -10,7 +10,7 @@ For security purposes, all zoom meetings will require that you sign-in via your 
 
 ## Finding Your Zoom Link
 * We will have different zoom links for different kinds of activities. All zoom links corresponding to lectures, office hours, and tutorials will be made available via the [course calendar](../times-locations/). All zoom meetings will be password-protected (see Canvas for passwords).
-* The zoom link for all lectures (Mo, We 4:00-4:50PM) is: <a href="https://northwestern.zoom.us/j/244540388?pwd=MTRVSGVrODQxY1k5dmg1S2VjeEZpUT09" target="_blank">https://northwestern.zoom.us/j/244540388</a> (Meeting ID: 244 540 388).
+* The zoom link for all lectures (Mo, We 4:00-4:50PM) is: <a href="https://northwestern.zoom.us/j/92514807708" target="_blank">https://northwestern.zoom.us/j/92514807708</a> (Meeting ID: 925 1480 7708).
 
 ## Recording (Audio / Video)
 We **will** be recording all sessions during regularly scheduled class time. We WILL NOT be recording office hours or tutorial sessions in order to protect students' privacy.

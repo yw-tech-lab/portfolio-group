@@ -25,13 +25,11 @@ readings:
 slides:
    - url: https://docs.google.com/presentation/d/1FIQT8xRHlOiznnuV-MLQ3I2Yrmdk5kXnK0txJdKWQKY/edit?usp=sharing
      title: Intro to Web Infrastructure
-# videos: 
-#    - url: ""
-#      title: Recorded Lecture Video
-#      live: 1
-
-# quiz_url: IDK
-
+videos: 
+   - url: https://northwestern.zoom.us/rec/share/MdywccbMuO0eusQRLwQGZdXy3MtbnqGRIsH5Qh12H7Yx8jaHfj0YWJO9qqyo6lUi.t0uMqfGP5ETVl2Ir?startTime=1617656325000
+     title: Recorded Lecture Video
+     live: 1
+     duration: "41:20"
 
 ---
 <img class="module-image" src="/spring2021/assets/images/internet-backbone-map.png" /> Today's readings provide interesting background and context for the web / internet. You're not going to be tested on them, but you should still do them in order to have a working knowledge of how the internet works. The readings shouldn't take too long!
