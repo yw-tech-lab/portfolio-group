@@ -1,13 +1,13 @@
 ---
 layout: module
-title: Intro to Semantic Tags + Crawlers + Jaws
+title: Intro to Semantic Tags + Crawlers + Accessibility
 type: lecture
-draft: 1
+draft: 0
 num: 4
 due_date: 2021-04-07
-slides:
-   - url: https://docs.google.com/presentation/d/1BlaesCoO-FVOl7WI-ycxh8OE5wmm7Q-tvSFBUq2gmhk/edit?usp=sharing
-     title: Semantic Tags and Web Accessibility
+# slides:
+#    - url: ""
+#      title: Semantic Tags and Web Accessibility
 # videos: 
 #    - url: ""
 #      title: Recorded Lecture Video
@@ -20,7 +20,6 @@ readings:
    - url: ../html-reference/semantic-tags/
      title: |
         HTML Resources: Semantic Tags
-     author: "Course staff"
      source: CS 130 Course Website
      date: 2021
      internal: 1
