@@ -1,7 +1,6 @@
 ---
 layout: module
-title: |
-    Intro to CSS: The DOM, Selectors, & the Cascade
+title: More Practice with CSS
 type: lecture
 draft: 1
 slides:
@@ -13,30 +12,6 @@ due_date: 2021-04-12
 #    - url: ""
 #      title: Intro to CSS & the DOM
 #      live: 1
-include_page: "activities/activity1.md"
-readings:
-   - url: ../css-reference/rules-of-thumb/
-     title: |
-        CSS Rules of Thumb
-     source: CS 130 Course Website
-     internal: 1
-   - url: ../css-reference/selectors/
-     title: Selectors
-     source: CS 130 Course Website
-     internal: 1
-     linkedin: 1
-   - url: ../css-reference/color/
-     title: Color
-     source: CS 130 Course Website
-     internal: 1
-   - url: ../css-reference/fonts/
-     title: Text & fonts
-     source: CS 130 Course Website
-     internal: 1
-   - url: ../css-reference/box-model/
-     title: The Box Model
-     source: CS 130 Course Website
-     internal: 1
 
 ---
 

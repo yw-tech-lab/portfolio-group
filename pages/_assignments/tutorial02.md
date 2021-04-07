@@ -3,7 +3,7 @@ layout: assignment-two-column
 title: Getting Started with GitHub
 type: tutorial
 abbreviation: Tutorial 2
-draft: 1
+draft: 0
 due_date: 2021-04-09
 num: 2
 points: 2.5
@@ -14,6 +14,11 @@ description:
     img {
         max-width: 750px;
         width: 60%;
+        border: solid 1px #000;
+    }
+    img.large {
+        max-width: 100%;
+        width: 100%;
         border: solid 1px #000;
     }
     .schematic {
@@ -61,8 +66,8 @@ In tutorial, your TA will go over how to use the command line and some common co
 | **What directory am I in?** | `> cd` | `$ pwd` |
 | **Change directories** | `> cd {{your_file_path}}` | `$ cd {{your_file_path}}` |
 | **List files & directories** | `> dir`<br> `> tree  # lists subdirectories` | `$ ls`<br>`$ ls -l` |
-| **Navigate to descendant directory** | `> cd  eecs130\lectures\lecture_03` | `$ cd  eecs130/lectures/lecture_03` |
-| **Navigate to sibling directory** | `> cd ..\lecture_02` | `$ cd  ../lecture_02` |
+| **Navigate to descendant directory** | `> cd  eecs130\lectures\lecture03` | `$ cd  eecs130/lectures/lecture03` |
+| **Navigate to sibling directory** | `> cd ..\lecture02` | `$ cd  ../lecture02` |
 | **Navigate to ancestor directory** | `> cd ..\..\` | `$ cd  ../../` |
 | **Navigate to home directory** | `> cd` | `$ cd` |
 | **Command history** | `> doskey /HISTORY` | `$ history` |
@@ -103,7 +108,7 @@ If you don’t already have a GitHub account, register for one: <a href="https:/
 ### 2. Set up your local git repository and link it to GitHub
 After you create your repository, you will be redirected to a screen that looks like the one pictured below:
 
-<img src="/spring2021/assets/images/tutorials/tutorial02/image3.png" />
+<img class="large" src="/spring2021/assets/images/tutorials/tutorial02/image3a.png" />
 
 Copy the code underneath the "...or create a new repository on the command line" (by clicking the clipboard icon).
 
@@ -124,8 +129,9 @@ Navigate into your repo folder, and then paste the text you just copied from Git
 git init
 git add README.md
 git commit -m "first commit"
+git branch -M main
 git remote add origin {{ repo_address }}
-git push -u origin master
+git push -u origin main
 ```
 
 **What the above code means...**
@@ -134,10 +140,11 @@ git push -u origin master
 | `git init` | Initializes an empty git repository on your file system |
 | `git add README.md` | Added the README.md file that git made to the list of files that are "tracked" by the repository. |
 | `git commit -m "first commit"` | "Commits" the change locally (analogous to registering a savepoint with git) |
-| `git remote add origin {{ repo_address }}` | Creates an association between your computer and your GitHub repository. |
-| `git push -u origin master` | Posts your files to GitHub |
+| `git branch -M main"` | Creates a new branch called "main." |
+| `git remote add origin {{ repo_address }}` | Creates an association between your computer and **your GitHub repository** (see step 2 above). |
+| `git push -u origin main` | Posts your files to GitHub |
 
-### 4. Add and commit tutorial01 to your local and remote repo
+### 4. Add and commit tutorial01 folder (from last week) to your local and remote repo
 
 {:.spaced}
 1. Copy your tutorial01 folder into your repo folder
@@ -147,10 +154,10 @@ It should say that your tutorial01 files are "untracked"
 1. Check the status of your repo again:<br>`$ git status`<br>
 It should now say that you tutorial01 files are being tracked.
 1. Now, commit your new tutorial01 files to the repo by typing:<br>`$ git commit -m "Adding my tutorial01 to the repo"`
-1. Finally, "push" your files to GitHub:<br>`$ git push origin master`
+1. Finally, "push" your files to GitHub:<br>`$ git push origin main`
 
 ## Part 6. Finally, Configure GitHub Pages
-GitHub also allows you to host pages. To enable GitHub pages, go to your repository and click on the settings tab. Then, scroll halfway down to the GitHub Pages section, and in the dropdown menu below "Source," select your master branch and then click the "Save" button. 
+GitHub also allows you to host pages. To enable GitHub pages, go to your repository and click on the settings tab. Then, scroll halfway down to the GitHub Pages section, and in the dropdown menu below "Source," select your main branch and then click the "Save" button. 
 
 <img src="/spring2021/assets/images/tutorials/tutorial02/image2.png" />
 

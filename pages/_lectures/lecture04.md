@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Intro to Semantic Tags + Crawlers + Accessibility
+title: "Intro to CSS: The DOM, Selectors, & the Cascade"
 type: lecture
 draft: 0
 num: 4
@@ -12,10 +12,7 @@ due_date: 2021-04-07
 #    - url: ""
 #      title: Recorded Lecture Video
 #      live: 1
-description:
-   - The importance of structure
-   - Search Engines
-   - Web Crawlers & SEO
+
 readings:
    - url: ../html-reference/semantic-tags/
      title: |
@@ -37,8 +34,31 @@ readings:
        - The aside element
        - The div element
        - Other semantic elements
+   - url: ../css-reference/rules-of-thumb/
+     title: |
+        CSS Rules of Thumb
+     source: CS 130 Course Website
+     internal: 1
+   - url: ../css-reference/selectors/
+     title: Selectors
+     source: CS 130 Course Website
+     internal: 1
+     linkedin: 1
+   - url: ../css-reference/color/
+     title: Color
+     source: CS 130 Course Website
+     internal: 1
+   - url: ../css-reference/fonts/
+     title: Text & fonts
+     source: CS 130 Course Website
+     internal: 1
+   - url: ../css-reference/box-model/
+     title: The Box Model
+     source: CS 130 Course Website
+     internal: 1
 
 ---
 
 
-Today is another conceptual day, where we will talk about the significance of semantic tags for web crawlers and screen readers. Remember: humans are but one user of your website, but robots are another. As such, making your content accessible to humans and machines will ensure better usability and discoverability.
+
+<img class="module-image" src="{{site.baseurl}}/assets/images/lectures/lecture04-css.png" /> Today we are going to go over some of the core rules of CSS and do a practice activity (see below). I **absolutely recommend** that you review the LinkedIn Learning videos that are referenced in the supplemental materials. Whereas you can kind of wing it with HTML tags and look them up as needed, having a sense of how CSS works is essential to making professional-looking websites. When you have completed this lesson, you should be familiar with selectors, how to specify color values, some font properties, and the "box model."
