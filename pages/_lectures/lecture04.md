@@ -20,7 +20,7 @@ readings:
      source: CS 130 Course Website
      date: 2021
      internal: 1
-   - url: https://www.linkedin.com/learning/collections/6619359376476033024?u=75814418
+   - url: https://www.linkedin.com/learning-login/share?account=75814418&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fcollections%2F6619359376476033024%3Ftrk%3Dshare_collection_url%26shareId%3DLVaYGFqTTRuu2HfhVke8MQ%253D%253D
      title: |
        Playlist 2: Structuring Page Content w/Semantic Tags 
      author: James Williamson
