@@ -5,9 +5,9 @@ type: lecture
 draft: 0
 num: 4
 due_date: 2021-04-07
-# slides:
-#    - url: ""
-#      title: Semantic Tags and Web Accessibility
+slides:
+   - url: https://docs.google.com/presentation/d/1KUbwUeDo7kcyDEQmKJqV_Y2F_49AsRl9GmDrNSeQ9LM/edit?usp=sharing
+     title: Intro to CSS
 # videos: 
 #    - url: ""
 #      title: Recorded Lecture Video
