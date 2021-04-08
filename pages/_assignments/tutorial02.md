@@ -96,6 +96,8 @@ In order to interact with GitHub, you need to install git. Before you install it
 ## Part 4: Register for an account on GitHub
 If you don’t already have a GitHub account, register for one: <a href="https://github.com/" target="_blank">https://github.com/join</a>.
 
+You will also need to create a **"Personal Access Token"**. The process is described <a href="https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token" target="_blank"here</a>.
+
 ## Part 5: Set Up Your repository
 
 ### 1. Create repository
