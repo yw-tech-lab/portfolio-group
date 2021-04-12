@@ -3,9 +3,9 @@ layout: module
 title: Creating Page Layouts w/CSS
 type: lecture
 draft: 0
-slides:
-   - url: https://docs.google.com/presentation/d/10w0PWm6NJ0aUQfwbP3AIKqj9x1Y4PJdLo47CEIpJyEE/edit?usp=sharing
-     title: Intro to CSS & the DOM
+# slides:
+#    - url: https://docs.google.com/presentation/d/10w0PWm6NJ0aUQfwbP3AIKqj9x1Y4PJdLo47CEIpJyEE/edit?usp=sharing
+#      title: Intro to CSS & the DOM
 num: 5
 due_date: 2021-04-12
 readings:
