@@ -50,12 +50,6 @@ description:
 ## Part 1: Do the GitHub Tutorial (Ideally Prior to Your Tutorial)
 Please complete the <a href="https://www.linkedin.com/learning/collections/6619359376471842816?u=75814418" target="_blank">LinkedIn Learning GitHub tutorial</a> **before the tutorial** to help you better follow along. In order to access the LinkedIn content, please sign in with your NU account.
 
-<a class="nu-button" 
-    href="https://www.linkedin.com/checkpoint/enterprise/login/75814418?application=learning" 
-    target="blank">
-    Sign into LinkedIn Learning <i class="fas fa-external-link-alt"></i>
-</a>
-
 
 ## Part 2: Intro to the Command Line
 In tutorial, your TA will go over how to use the command line and some common commands. <a href="https://tutorial.djangogirls.org/en/intro_to_command_line/" target="_blank">Django Girls</a> is a good resource. I've also created a cheat sheet for you:
@@ -96,7 +90,7 @@ In order to interact with GitHub, you need to install git. Before you install it
 ## Part 4: Register for an account on GitHub
 If you don’t already have a GitHub account, register for one: <a href="https://github.com/" target="_blank">https://github.com/join</a>.
 
-You will also need to create a **"Personal Access Token"**. The process is described <a href="https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token" target="_blank"here</a>.
+You will also need to create a **"Personal Access Token"**. The process is described <a href="https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token" target="_blank">here</a>.
 
 ## Part 5: Set Up Your repository
 

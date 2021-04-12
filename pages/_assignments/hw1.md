@@ -4,7 +4,7 @@ title: |
    CSS & Visual Design
 abbreviation: HW1
 type: homework
-due_date: 2021-04-24
+due_date: 2021-04-21
 ordering: 1
 draft: 1
 points: 10
