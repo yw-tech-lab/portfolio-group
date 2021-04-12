@@ -3,11 +3,12 @@ layout: module
 title: Creating Page Layouts w/CSS
 type: lecture
 draft: 0
-# slides:
-#    - url: https://docs.google.com/presentation/d/10w0PWm6NJ0aUQfwbP3AIKqj9x1Y4PJdLo47CEIpJyEE/edit?usp=sharing
-#      title: Intro to CSS & the DOM
+slides:
+   - url: https://docs.google.com/presentation/d/1iQXjD4YppbBmevR347zKg41ZGYjQ2EbE1CKDji485uY/edit?usp=sharing
+     title: Composition & CSS Layouts
 num: 5
 due_date: 2021-04-12
+exercise_url: lecture05.zip
 readings:
    - title: "The Non-Designer's Design Book, Chapter 1"
      url: "https://canvas.northwestern.edu/files/11044803/download?download_frd=1"
@@ -44,6 +45,8 @@ Today we will be going over page composition, including principles and CSS techn
 
 <img style="width:600px;display:block;margin:auto;" src="{{site.baseurl}}/assets/images/lecture12/composition.png" />
 
-<!-- See below.
+## Lecture Activity
 
-<img class="img medium" src="{{site.baseurl}}/assets/images/lectures/lecture05.gif" />  -->
+Please download today's lecture files and try to recreate the layout below: 
+
+<img class="img medium" src="{{site.baseurl}}/assets/images/lectures/lecture05.gif" /> 
