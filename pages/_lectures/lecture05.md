@@ -35,12 +35,20 @@ readings:
      title: Media Queries
      source: CS 130 Course Website
      internal: 1
-# videos:
-#    - url: ""
-#      title: Intro to CSS & the DOM
-#      live: 1
+videos:
+   - url: https://northwestern.zoom.us/rec/share/O0gasc4Y92s__1fHHfx0XLa85HP_d6f8jKOprkD4WhAWJ7wSsQ5J8GYYIsyyey_G.ep4s-tKLWn2Da3qO
+     title: Recorded Lecture Video
+     duration: "49:48"
+     live: 1
 
 ---
+
+> ## Edited CSS file from today's demo
+>
+> Here is the beginning of the CSS file we made together in lecture today:
+> * [main.css]({{site.baseurl}}/course-files/lectures/lecture05/from_class/main.css)
+
+
 Today we will be going over page composition, including principles and CSS techniques.
 
 <img style="width:600px;display:block;margin:auto;" src="{{site.baseurl}}/assets/images/lecture12/composition.png" />
