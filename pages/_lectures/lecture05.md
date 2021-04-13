@@ -43,6 +43,7 @@ videos:
 
 ---
 
+{:.blockquote-no-margin}
 > ## Edited CSS file from today's demo
 >
 > Here is the beginning of the CSS file we made together in lecture today:
