@@ -1,24 +1,20 @@
 ---
 layout: module
-title: Principles of Visual Design
+title: "Creating Page Layouts w/CSS: Part II"
 type: lecture
-draft: 1
+draft: 0
 num: 6
 
-description:
-  - Visual Design
-  - Best Practices
 due_date: 2021-04-14
+slides:
+   - url: https://docs.google.com/presentation/d/19l4BAU2Elt_RcclURDUSjjVJ5-CxY9NOo4wEIPX-UlA/edit?usp=sharing
+     title: Composition & CSS Layouts Continued
+
 # videos:
 #    - url: ""
 #      title: ""
 #      live: 1
-# include_page: "activities/activity2.md"
 
 ---
 
-Today we will be discussing a few different visual design and usability principles:
-
-* Selecting [colors](../css-reference/color/)
-* Communicating <a href="https://docs.google.com/document/d/1Vv5tPZ8UjqJNYO9pCp_PQhxHT8qoGY09deKX6uygUFA/edit?usp=sharing" target="_blank">values</a> through visual design
-* Examples of [style guides](../css-reference/style-guides/)
+Today we will be reviewing some CSS techniques to instantiate nice page layouts. Please refer to the readings from [Lecture 5](lecture05) for more resources on CSS.
