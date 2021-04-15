@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Intro to Visual Design - Part II
+title: Principles of Visual Design
 type: lecture
 draft: 1
 num: 7

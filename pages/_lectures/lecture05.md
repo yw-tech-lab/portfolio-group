@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Creating Page Layouts w/CSS
+title: "Creating Page Layouts w/CSS: Part I"
 type: lecture
 draft: 0
 slides:
