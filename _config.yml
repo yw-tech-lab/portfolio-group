@@ -49,6 +49,9 @@ collections:
 
 collections_dir: pages
 
+exclude:
+  - "*drafts*"
+
 sass:
   style: compact
   sass_dir: _sass

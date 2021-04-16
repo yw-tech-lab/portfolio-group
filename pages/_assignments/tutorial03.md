@@ -22,7 +22,7 @@ There are many different ways to use CSS grid to make a layout. In this tutorial
 1. Naming the regions of your grid using the `grid-template-areas` property.
 1. Assigning different elements to different regions of your grid using the `grid-area` property. 
 1. Creating margins in your grid using the `grid-row-gap` and `grid-column-gap` properties.
-1. Scaling your columns flexibly using "fractional units" (fr). For more info on the `fr` unit, see the [CSS units page](/{{ site.baseurl }}/css-reference/units/).
+1. Scaling your columns flexibly using "fractional units" (fr). For more info on the `fr` unit, see the [CSS units page](/spring2021/css-reference/units/).
 
 For instance, the following code uses these properties to generate the layout pictured right:
 
