@@ -113,6 +113,7 @@ p, .body-copy {
   font-size: 1.1em;
   line-height: 1.7em;
   color: #222;
+  margin-bottom: 1em;
 }
 .body-copy strong {
   font-weight: 600;
