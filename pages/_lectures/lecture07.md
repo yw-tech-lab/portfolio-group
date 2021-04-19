@@ -2,21 +2,23 @@
 layout: module
 title: Principles of Visual Design
 type: lecture
-draft: 1
+draft: 0
 num: 7
 description:
   - Color
   - Values
   - Branding
 slides:
-   - url: https://docs.google.com/presentation/d/1Xbq-hXcfKSI7GG_0nmlJLOBDqwQasAtsRKHajmLHy2s/edit?usp=sharing
+   - url: https://docs.google.com/presentation/d/130qyI-ADSbGweP1MtsZHO-Mq428lm5Fg_esQeJ9ZtN8/edit?usp=sharing
      title: |
-        Color & Visually Communicating Values
+        Color, Fonts & Visually Communicating Values
 due_date: 2021-04-19
-videos:
-   - url: https://northwestern.zoom.us/rec/share/295aEr_T91lIGtLTx0SGd5VmPp3Maaa81SMf_vNYmBzXW9FC3w3WApU-cdZ5Sz2i
-     title: Visual Design Part 2
-     live: 1
+exercise_url: lecture07.zip
+# videos:
+#    - url: ""
+#      title: Recorded Lecture Video
+#      live: 1
+#      duration: ""
 
 include_page: "activities/activity3.md"
 
