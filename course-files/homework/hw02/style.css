@@ -58,6 +58,7 @@ footer {
     grid-area: bottom;
 }
 
+
 /***************************/
 /* Accessories & Florishes */
 /***************************/
@@ -74,3 +75,38 @@ footer {
 ::-webkit-scrollbar-thumb {
     background-color: hsla(0,0%,100%,.3);
 }
+
+/***************************/
+/* Part A: Left Navigation */
+/***************************/
+
+/* Your Code Here */
+
+
+
+/********************************/
+/* Part B: Header & Nav Styling */
+/********************************/
+
+/* Your Code Here */
+
+
+
+
+
+/*************************/
+/* Part C: Artists Panel */
+/*************************/
+
+/* Your Code Here */
+
+
+
+
+/**************************/
+/* Part D: Responsive UIs */
+/**************************/
+
+/* Your Code Here */
+
+
