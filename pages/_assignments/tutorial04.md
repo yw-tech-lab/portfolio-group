@@ -107,6 +107,8 @@ When you're done, your `repo` directory should look something like this:
 └── style.css          # style.css you just made
 ```
 
+Note that you can have additional files and folders in your repo directory, so long as the ones listed above are in there.
+
 ### Commit your changes and push to GitHub
 Once you've set up your two new files, go ahead and commit everything and push your new files to GitHub.
 
