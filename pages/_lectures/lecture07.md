@@ -14,11 +14,11 @@ slides:
         Color, Fonts & Visually Communicating Values
 due_date: 2021-04-19
 exercise_url: lecture07.zip
-# videos:
-#    - url: ""
-#      title: Recorded Lecture Video
-#      live: 1
-#      duration: ""
+videos:
+   - url: https://northwestern.zoom.us/rec/share/myd_godk4VHIr2cPQXtCNzmIFDg7BRv3eF7DigpMj1Y-noV_cyn38VmKc2plleVj.zUIBt9_ZDAIcCOt1?startTime=1618865898000
+     title: Recorded Lecture Video
+     live: 1
+     duration: "52:02"
 
 include_page: "activities/activity3.md"
 

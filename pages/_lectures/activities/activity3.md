@@ -1,6 +1,5 @@
 ## Do the Activity: Communicating values using visual design
-**Scenario:** You are building your own personal website / online portfolio and want to visually communicate your own unique values and brand identity. Please (a) complete the values activity and (b) use these values to create a "style tile."
-
+**Scenario:** You are building your own personal website / online portfolio and want to visually communicate your own unique values and brand identity. Please complete the following three tasks:
 
 ### 1. Values activity
 Using this <a href="https://docs.google.com/document/d/1Vv5tPZ8UjqJNYO9pCp_PQhxHT8qoGY09deKX6uygUFA/edit?usp=sharing" target="_blank">list of values</a>, select 5 that best describe the values that you want to communicate about yourself. Then narrow those down to 3 values (you don't want too many or you will dilute your main message).
