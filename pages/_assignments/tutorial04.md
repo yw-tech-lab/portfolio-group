@@ -166,6 +166,17 @@ Add the links that you found to the "inspiration" section of your homepage (like
 >    * [box model]({{ site.baseurl }}/css-reference/box-model/)
 >    * [fonts]({{ site.baseurl }}/css-reference/fonts/)
 
+## Checklist
+Please make sure that you have completed the following (see the <a href="https://vanwars.github.io/cs130-spring2021/" target="_blank">example</a>, except you will add styling):
+
+{:.checkbox-list}
+* Added a link to Lab 1
+* Added a link to Lab 3
+* Added a link to Homework 1
+* Added your "inspiration" links
+* Styled your page
+* Posted your homepage to GitHub Pages
+
 ## What to turn in
 To submit this week's homework assignment, publish everything to GitHub...
 
