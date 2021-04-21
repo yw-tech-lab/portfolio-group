@@ -92,9 +92,9 @@ layout: default
             const dateString = lastTd.querySelector('.due-date').innerHTML;
             const dueDate = new Date(dateString);
             const numDays = (dueDate - new Date()) / (1000 * 3600 * 24);
-            if (isTutorial) {
-                nextToLastTd.innerHTML = "scheduled tutorial time";
-            }
+            // if (isTutorial) {
+            //     nextToLastTd.innerHTML = "scheduled tutorial time";
+            // }
             if (numDays < -1) {
                 tr.classList.add('passed');
                 lastTd.innerHTML = "passed";
