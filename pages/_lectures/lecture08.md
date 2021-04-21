@@ -6,7 +6,7 @@ draft: 0
 num: 8
 exercise_url: lecture08.zip
 slides:
-   - title: "CSS Florishes"
+   - title: "CSS Flourishes"
      url: https://docs.google.com/presentation/d/1uP1Rh12DrwMY6u5hasDni2m0DyNLn65tvbSw82RfG7o/edit?usp=sharing
 
 # videos: 
@@ -18,7 +18,7 @@ slides:
 due_date: 2021-04-21
 ---
 
-Today will be our last day of CSS formal instruction, though you will still get a lot more practice in [HW2](../assignments/hw02). I was thinking of just showing you some options and talking through how you might approach incorporating some of these florishes into your website. 
+Today will be our last day of CSS formal instruction, though you will still get a lot more practice in [HW2](../assignments/hw02). I was thinking of just showing you some options and talking through how you might approach incorporating some of these flourishes into your website. 
 
 Try to have fun with these ideas -- even if you don't really understand the syntax yet. Some interesting links and resources I found online:
 
@@ -37,4 +37,4 @@ Try to have fun with these ideas -- even if you don't really understand the synt
 
 #### Other Animation Libraries and Tutorials
 * <a href="https://github.com/juliangarnier/anime#getting-started" target="_blank">AnimeJS</a>
-* Some interesting <a href="https://www.linkedin.com/learning/css-shorts/welcome?u=75814418" target="_blank">CSS Shorts</a> on LinkedIn learning, which deconstruct various design techniques / florishes.
+* Some interesting <a href="https://www.linkedin.com/learning/css-shorts/welcome?u=75814418" target="_blank">CSS Shorts</a> on LinkedIn learning, which deconstruct various design techniques / flourishes.
