@@ -9,11 +9,11 @@ slides:
    - title: "CSS Flourishes"
      url: https://docs.google.com/presentation/d/1uP1Rh12DrwMY6u5hasDni2m0DyNLn65tvbSw82RfG7o/edit?usp=sharing
 
-# videos: 
-#    - url: ""
-#      title: Recorded Lecture Video
-#      live: 1
-#      duration: ""
+videos: 
+   - url: https://northwestern.zoom.us/rec/share/9azR7tfI7R3GBWy8Y8Vzv_rxs7ZweiQviHNbOAoqfTBh6w6mqCwl5kRO1pzZUtLP.aHBKaHCXrnoGOKyi?startTime=1619038712000
+     title: Recorded Lecture Video
+     live: 1
+     duration: "51:17"
 
 due_date: 2021-04-21
 ---
