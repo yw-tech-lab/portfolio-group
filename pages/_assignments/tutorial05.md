@@ -3,15 +3,15 @@ layout: two-column
 title: Practice manipulating the DOM with JavaScript
 type: tutorial
 abbreviation: Tutorial 5
-draft: 1
+draft: 0
 num: 5
 points: 2.5
 due_date: 2021-04-30
 
 ---
-<a href="/spring2021/course-files/tutorials/tutorial04.zip" class="nu-button">Download Tutorial Files <i class="fas fa-download"></i></a> <a href="/spring2021/course-files/tutorials/tutorial04_solutions.zip" class="button">Solutions <i class="fas fa-download"></i></a>
+<a href="/spring2021/course-files/tutorials/tutorial05.zip" class="nu-button">Download Tutorial Files <i class="fas fa-download"></i></a> 
 
-Please download the tutorial04 files and save them to your repo folder. Then, open the entire tutorial04 folder in Atom. To view how each of the projects should work upon completion, please see this screencast.
+Please download the tutorial05 files and save them to your repo folder. Then, open the entire tutorial05 folder in Atom. To view how each of the projects should work upon completion, please see this screencast.
 
 ## Part 1: Font Switcher
 Open font-switcher/index.html in Atom, and note the HTML tags. Also note, right before the close of the body tag, the script tag that links to your JavaScript file:
@@ -47,11 +47,11 @@ Repeat the same general process with page-turner, by:
 2. Modifying the bodies of the chapter1, chapter2, and chapter3 functions so that they modify the contents of the div that is assigned the class of “content.”
 
 ## Turn in your files via GitHub
-1. Ensure that your `tutorial04` folder is inside of your repo folder.
-2. Check the status of your repo:<br>`$ git status`<br>It should say that your tutorial04 files are “untracked”
-3. Add all of your tutorial04 files to the list of files that are tracked by the repo:<br>`$ git add tutorial04`
-4. Check the status of your repo again:<br>`$ git status`<br>It should now say that you tutorial04 files are being tracked.
-5. Now, commit your new tutorial04 files to the repo:<br>`$ git commit -m "Adding my tutorial04 to the repo"`
+1. Move your `tutorial05` folder into your repo folder (if it's not there already).
+2. Check the status of your repo:<br>`$ git status`<br>It should say that your tutorial05 files are “untracked”
+3. Add all of your tutorial05 files to the list of files that are tracked by the repo:<br>`$ git add tutorial05`
+4. Check the status of your repo again:<br>`$ git status`<br>It should now say that you tutorial05 files are being tracked.
+5. Now, commit your new tutorial05 files to the repo:<br>`$ git commit -m "Adding my tutorial05 to the repo"`
 6. Finally, “push” your files to GitHub:<br>`$ git push`
 7. Paste a link to your GitHub repo and to your GitHub pages 
 
