@@ -9,11 +9,11 @@ exercise_url: lecture09.zip
 slides:
    - url: https://docs.google.com/presentation/d/1mbtOsPTkWoW38JEhyT1DLjSpsL3SiR8hnuVvPPVD3T0/edit?usp=sharing
      title: Intro to JavaScript & Manipulating the DOM
-# videos: 
-#    - url: ""
-#      title: Recorded Lecture Video
-#      live: 1
-#      duration: ""
+videos: 
+   - url: https://northwestern.zoom.us/rec/share/ENN5cWEzJrUBgljStZmW8j35eE5tvlnfQ_izVKincavVcfED9Pgos3c61OECkjQQ._corffPawmW4gInX?startTime=1619470783000
+     title: Recorded Lecture Video
+     live: 1
+     duration: "52:29"
 
 readings:
    - url: https://learning.oreilly.com/playlists/d99f7433-24b8-4370-8e33-f2bb8429e702
