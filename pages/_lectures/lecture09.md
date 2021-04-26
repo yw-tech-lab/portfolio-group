@@ -5,9 +5,10 @@ type: lecture
 draft: 0
 num: 9
 due_date: 2021-04-26
+exercise_url: lecture09.zip
 slides:
-   - url: ""
-     title: Intro to JavaScript
+   - url: https://docs.google.com/presentation/d/1mbtOsPTkWoW38JEhyT1DLjSpsL3SiR8hnuVvPPVD3T0/edit?usp=sharing
+     title: Intro to JavaScript & Manipulating the DOM
 # videos: 
 #    - url: ""
 #      title: Recorded Lecture Video
