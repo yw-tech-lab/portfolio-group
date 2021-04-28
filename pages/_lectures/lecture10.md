@@ -5,9 +5,10 @@ type: lecture
 draft: 0
 num: 10
 due_date: 2021-04-28
-# slides:
-#    - url: https://docs.google.com/presentation/d/1elm49svtvPFtWlqn7AWpgkyp7vHo5kl8lbxIBWRmwQo/edit?usp=sharing
-#      title: Intro to Programming
+exercise_url: lecture10.zip
+slides:
+   - url: https://docs.google.com/presentation/d/1FF0ieZHAVOSZoPrGPr0XU3AAzg8QBYGM2hRRuGNGF58/edit?usp=sharing
+     title: Intro to Programming
 readings:
    - url: https://flaviocopes.nyc3.digitaloceanspaces.com/javascript-beginner-handbook/javascript-beginner-handbook.pdf
      title: The JavaScript Beginner's Handbook
