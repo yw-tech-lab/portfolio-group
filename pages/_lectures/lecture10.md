@@ -16,11 +16,11 @@ readings:
      source: "O'Reilly"
      date: 2021
      notes: "Please read pp. 9-34"
-# videos: 
-#    - url: ""
-#      title: Recorded Lecture Video
-#      live: 1
-#      duration: ""
+videos: 
+   - url: https://northwestern.zoom.us/rec/share/tzBlKL-crhABoNw2Hn28voz41FZlsTQ6UMHN3ppMTOcRm0pyXccWRNfJQP8WsX02.YJ5MK_M8Jvd5zo5K
+     title: Recorded Lecture Video
+     live: 1
+     duration: "50:22"
 ---
 
 Today we'll be going over the building blocks of programming, using JavaScript. Over the next two weeks, you'll be reading almost all of the "The JavaScript Beginner's Handbook." For today, read pp. 9-34 (from the "syntax" section all the way to the "arrays" section).

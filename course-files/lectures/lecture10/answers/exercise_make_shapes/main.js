@@ -1,6 +1,6 @@
 let isDragging = false;
 
-const makeRedCircle = (ev) => {
+const makeShape = (ev) => {
     console.log(ev);
 
     const color = document.querySelector('#color').value;
@@ -20,20 +20,20 @@ const makeRedCircle = (ev) => {
     document.querySelector('svg').insertAdjacentHTML("beforeend", svg);
 };
 
-const makeShape1 = (ev) => {
+const makeShapeWhenDrag = (ev) => {
     if (!isDragging) {
         return;
     }
-    makeRedCircle(ev);
+    makeShape(ev);
 };
 
 
 
-document.querySelector('svg').onclick = makeRedCircle;
+document.querySelector('svg').onclick = makeShape;
 document.querySelector('svg').onmousedown = (ev) => {
     isDragging = true;
 };
 document.querySelector('svg').onmouseup = (ev) => {
     isDragging = false;
 };
-document.querySelector('svg').onmousemove = makeRedCircle;
+document.querySelector('svg').onmousemove = makeShapeWhenDrag;
