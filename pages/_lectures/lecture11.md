@@ -13,7 +13,7 @@ due_date: 2021-05-03
 #      title: Functions & Events
 #      live: 1
 
-# exercise_url: lecture11.zip
+exercise_url: lecture11.zip
 readings:
    - url: https://flaviocopes.nyc3.digitaloceanspaces.com/javascript-beginner-handbook/javascript-beginner-handbook.pdf
      title: The JavaScript Beginner's Handbook

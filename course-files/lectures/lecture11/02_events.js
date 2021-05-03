@@ -9,6 +9,9 @@ const sayHello = () => {
 // event listener:
 document.querySelector('#my_button').onclick = sayHello;
 
+// alternative syntax:
+// document.querySelector('#my_button').addEventListener('click', sayHello);
+
 
 // EXAMPLE 2: Functionality depends on what has been clicked
 // https://codepen.io/vanwars/pen/KYjgzL
@@ -22,3 +25,8 @@ const changeColor = (ev) => {
  document.querySelector('#color1').onclick = changeColor;
  document.querySelector('#color2').onclick = changeColor;
  document.querySelector('#color3').onclick = changeColor;
+
+// alternative syntax:
+//  document.querySelector('#color1').addEventListener('click', changeColor);
+//  document.querySelector('#color2').addEventListener('click', changeColor);
+//  document.querySelector('#color3').addEventListener('click', changeColor);
