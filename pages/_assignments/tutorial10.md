@@ -5,7 +5,7 @@ type: presentation
 abbreviation: Presentation
 draft: 1
 num: 10
-points: 4
+points: 6
 due_date: 2021-06-04
 ---
 

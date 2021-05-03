@@ -5,6 +5,7 @@ layout: default
 
 {% assign dateStart = site.term_start_date | date: '%s' %}
 {% assign now = 'now' | date: '%s' %}
+{% assign totalPoints = 0 %}
             
 <section class="assignments">
     <table class="assignments-table">
@@ -13,7 +14,7 @@ layout: default
                 <th>Week</th>
                 <th>Assignment</th>
                 <th>Description</th>
-                <!-- <th>Points</th> -->
+                <th>Points</th>
                 <th>Due</th>
                 <th>Days Left</th>
             </tr>
@@ -21,10 +22,8 @@ layout: default
         <tbody>
         {% assign last_week = 0 %}
         {% assign sortedAssignments = site.assignments | sort: 'due_date' %}
-        {% assign tutorials = site.lectures | sort: 'due_date' | where: "type", "tutorial" %}
-        {% assign presentations = site.lectures | sort: 'due_date' | where: "type", "presentation" %}
-        {% assign assignments = sortedAssignments | concat: tutorials | concat: presentations | sort: 'due_date' %}
-        {% for assignment in assignments %}
+        {% for assignment in sortedAssignments %}
+            {% assign totalPoints = totalPoints | plus: assignment.points %}
             {% assign dueDate = assignment.due_date | date: '%s' %}
             {% assign diffSeconds = dueDate | minus: dateStart %}
             {% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 | plus: 1 %}
@@ -59,7 +58,7 @@ layout: default
                     {% endif %}                   
                 </td>
                 <td>{{ assignment.title }}</span>
-                <!-- <td>{{ assignment.points }} points</td> -->
+                <td>{{ assignment.points }} points</td>
                 <td>{{ assignment.due_date | date: "%a, %m/%d" }}</td>
                 <td>
                     <span class="due-date">
@@ -69,6 +68,14 @@ layout: default
             </tr>
             {% assign last_week = week %}
         {% endfor %}
+        <tr>
+            <th></th>
+            <th></th>
+            <th>Total Points</th>
+            <th>{{ totalPoints | round }} points</th>
+            <th></th>
+            <th></th>
+        </tr>
         </tbody>
     </table>
 
@@ -92,24 +99,13 @@ layout: default
             const dateString = lastTd.querySelector('.due-date').innerHTML;
             const dueDate = new Date(dateString);
             const numDays = (dueDate - new Date()) / (1000 * 3600 * 24);
-            // if (isTutorial) {
-            //     nextToLastTd.innerHTML = "scheduled tutorial time";
-            // }
             if (numDays < -1) {
                 tr.classList.add('passed');
                 lastTd.innerHTML = "passed";
-            }
-            else if (isTutorial) {
-                lastTd.innerHTML = "<span style='font-family: Arial;'>&#8804;</span> " + (numDays + 1).toFixed();
-                //lastTd.innerHTML = '';
-            }
-            else {
-                if (numDays < 0) {
-                    lastTd.innerHTML = "due tonight";
-                }
-                else {
-                    lastTd.innerHTML = (numDays + 1).toFixed();
-                }
+            } else if (numDays < 0) {
+                lastTd.innerHTML = "due tonight";
+            } else {
+                lastTd.innerHTML = (numDays + 1).toFixed();
             }
         }
     }

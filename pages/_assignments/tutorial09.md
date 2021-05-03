@@ -5,6 +5,7 @@ type: tutorial
 abbreviation: Tutorial 9
 draft: 1
 num: 9
+points: 2.5
 due_date: 2021-05-28
 description:
     - GET, POST, PUT, and DELETE
