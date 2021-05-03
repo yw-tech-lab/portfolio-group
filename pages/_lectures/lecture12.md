@@ -1,25 +1,29 @@
 ---
 layout: module
-title: Conditional Statements and Data Types Part 2
+title: Lists, objects & loops
 type: lecture
-draft: 1
+draft: 0
 num: 12
 due_date: 2021-05-05
-slides:
-   - url: https://docs.google.com/presentation/d/1Ra5RGuX0e5PysR57rYVKRQ3up7LOTPyeihMpY5vCOao/edit?usp=sharing
-     title: Conditionals & More data structures.
+# exercise_url: lecture11.zip
+# slides:
+#    - url: ""
+#      title: Conditionals & More data structures.
 
-videos:
-   - url: https://northwestern.zoom.us/rec/share/_OdyLYiox0hOeYmcuG6BcJYYQYj3eaa8gCJKqKIOnx4pZpguadi3yTKXNM5WqDIb?startTime=1589230586000
-     title: Conditionals
-     live: 1
+# videos:
+#    - url: ""
+#      title: ""
+#      live: 1
+readings:
+   - url: https://flaviocopes.nyc3.digitaloceanspaces.com/javascript-beginner-handbook/javascript-beginner-handbook.pdf
+     title: The JavaScript Beginner's Handbook
+     author: "Flavio Copes"
+     source: "O'Reilly"
+     date: 2021
+     notes: "Please read pp. 30-33, 35-37, and 45-51"
 ---
 
-<a class="nu-button" href="/spring2021/course-files/lectures/lecture11.zip">
-    download lecture files 
-    <i class="fas fa-download"></i>
-</a>
-
-Today's lecture is a carry-over from last week. We will be learning about if/else statements (conditionals).
-
-We didn't get to data (lists and dictionaries) today, but will pick up with it on Wednesday.
+Today we're going to be covering lists (also known as arrays), objects & loops. 
+* Lists are reviewed on pp. 30-33 of the readings.
+* Objects are reviewed on pp. 45-51.
+* Loops are reviewed on pp. 35-37

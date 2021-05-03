@@ -2,23 +2,34 @@
 layout: module
 title: Functions, events, and control
 type: lecture
-draft: 1
+draft: 0
 num: 11
 due_date: 2021-05-03
-slides:
-   - url: https://docs.google.com/presentation/d/1AC_oe2k0vgmLAyRL9p4DiNeoVtDDCeF5IlEBPcybv-Q/edit?usp=sharing
-     title: Functions + Events; Control
+# slides:
+#    - url: ""
+#      title: Functions + Events; Control
+# videos:
+#    - url: ""
+#      title: Functions & Events
+#      live: 1
 
-videos:
-   - url: https://northwestern.zoom.us/rec/share/3ON3FJ3OznpObon0zniPcJcjF771aaa81SUd_qANnxmmddmScNEIFDQp0j2Q4Ofs?startTime=1588798621000
-     title: Functions & Events
-     live: 1
- 
+# exercise_url: lecture11.zip
+readings:
+   - url: https://flaviocopes.nyc3.digitaloceanspaces.com/javascript-beginner-handbook/javascript-beginner-handbook.pdf
+     title: The JavaScript Beginner's Handbook
+     author: "Flavio Copes"
+     source: "O'Reilly"
+     date: 2021
+     notes: "Please read pp. 25-26, 38-44"
+   - url: https://learning.oreilly.com/videos/javascript-for-beginners/9781800562431/9781800562431-video2_31
+     title: "Introduction to Event Listeners"
+     source: Safari Books
+
 ---
 
-<a class="nu-button" href="/spring2021/course-files/lectures/lecture10.zip">
-    download lecture files 
-    <i class="fas fa-download"></i>
-</a>
+Today we'll continue learning about the building blocks of programming, with a focus on functions, events, and conditionals. 
+* Conditionals are reviewed on pp. 25-26 of the readings.
+* Functions are reviewed on pp. 38-44.
+* Event Listeners are reviewed in the assigend Safari Books video.
 
-In today's lecture, we will continue reviewing some programming rules in preparation for next week's material, where we move into working with live data (Twitter, YouTube, SoundCloud, Flickr, & Yelp).
+<a href="http://turing.library.northwestern.edu/login?url=https://www.safaribooksonline.com/library/view/temporary-access/" target="_blank" class="button">Safari Books Login <i class="fas fa-link"></i></a>

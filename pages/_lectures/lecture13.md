@@ -1,13 +1,13 @@
 ---
 layout: module
-title: Lists, Dictionaries, and Templates
+title: Practice manipulating lists and objects
 type: lecture
 draft: 1
 num: 13
 due_date: 2021-05-10
 slides:
    - url: https://docs.google.com/presentation/d/1EVuiPopIu9qoMM_nGkbrSS1O0EMTw4FHJ1La_hh-S_Y/edit?usp=sharing
-     title: Lists, Dictionaries, and Templates
+     title: Practice manipulating lists and objects
 
 videos:
    - url: https://northwestern.zoom.us/rec/share/4sBIcuDgyGJLSYGQyHzlaKgOGZ7qeaa8gClPrKEOzE5cS_kwp07QbP1WVucg6sXF?startTime=1589403533000
