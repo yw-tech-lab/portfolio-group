@@ -25,9 +25,9 @@ const showPrev = (ev) => {
 // attach event handler to all of the image tags 
 // (after initScreen() has been invoked).
 const imageElements = document.querySelectorAll('.image');
-imageElements.forEach(elem => {
+for (const elem of imageElements) {
     elem.onclick = showImage;
-});
+}
 
 document.querySelector('.next').onclick = showNext;
 document.querySelector('.prev').onclick = showPrev;

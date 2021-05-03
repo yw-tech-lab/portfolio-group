@@ -1,7 +1,6 @@
 ---
 layout: assignment-two-column
-title: |
-    JavaScript & the DOM: Part 2
+title: HW3 Prep
 type: tutorial
 abbreviation: Tutorial 6
 draft: 1

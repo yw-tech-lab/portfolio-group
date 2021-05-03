@@ -18,6 +18,6 @@ const imageElements = document.querySelectorAll('.image');
 
 // then loop through each one and attach an event handler
 // to each element's click event:
-imageElements.forEach(elem => {
+for (const elem of imageElements) {
     elem.onclick = showImage;
-});
+}
