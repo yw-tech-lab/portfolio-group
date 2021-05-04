@@ -8,10 +8,11 @@ due_date: 2021-05-03
 slides:
    - url: https://docs.google.com/presentation/d/1APqTG7gSUHTQu_KVZPv0uCoz3Cvo3dKrJw1o-g4jLuk/edit?usp=sharing
      title: Functions, events, and control
-# videos:
-#    - url: ""
-#      title: Functions & Events
-#      live: 1
+videos:
+   - url: https://northwestern.zoom.us/rec/share/ZRYG2WkqsiNJ1FJCQBiyPpaLR6yCLNAWHX79F49kg6FsR2uU6UTngfTIWYk2k838.rEFDKRd-Z-qU7Ax8
+     title: Recorded Lecture Video
+     live: 1
+     duration: "51:32"
 
 exercise_url: lecture11.zip
 readings:
