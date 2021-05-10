@@ -5,9 +5,10 @@ type: lecture
 draft: 0
 num: 13
 due_date: 2021-05-10
-# slides:
-#    - url: https://docs.google.com/presentation/d/1lhOFDPcN9s7D6nYFTb7Nr7c-UQAaUKmbVzv_3wL8dNA/edit?usp=sharing
-#      title: "Working with Data: AJAX & Web APIs"
+exercise_url: lecture13.zip
+slides:
+   - url: https://docs.google.com/presentation/d/1lhOFDPcN9s7D6nYFTb7Nr7c-UQAaUKmbVzv_3wL8dNA/edit?usp=sharing
+     title: "Working with Data: AJAX & Web APIs"
 
 # include_page: "includes/fetch.md"
 

@@ -11,7 +11,7 @@ description:
     - Functions and Event Handlers
 ---
 
-<a href="/spring2021/course-files/tutorials/tutorial06.zip" class="nu-button">Download Tutorial Files <i class="fas fa-download"></i></a>
+<a href="/spring2021/course-files/tutorials/tutorial06.zip" class="nu-button">Download Tutorial Files <i class="fas fa-download"></i></a> <a href="/spring2021/course-files/tutorials/tutorial06-solutions.zip" class="button">Solutions<i class="fas fa-download"></i></a> 
 
 Today you will be writing the code that allows you to view and listen to samples of songs by Bob Dylan. Specifically, you will:
 
