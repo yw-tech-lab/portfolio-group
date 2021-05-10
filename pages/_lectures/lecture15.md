@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Making your app interactive with third-party data
+title: Integrating Third-Party UI Components
 type: lecture
 draft: 1
 num: 15
@@ -14,9 +14,9 @@ videos:
      live: 1
 ---
 
-<a class="nu-button" href="/spring2021/course-files/lectures/lecture14.zip">
+<!-- <a class="nu-button" href="/spring2021/course-files/lectures/lecture14.zip">
     download lecture files 
     <i class="fas fa-download"></i>
-</a>
+</a> -->
 
-Today, we will continue working with the JavaScript’s fetch API -- using it to query data from various content providers (i.e. servers), and create different interface elements. Then we will take a look at homework 4. I've also provided a few sample files to show you how you might make an interactive map or a chart using various third-party libraries.
+Widgets! I've also provided a few sample files to show you how you might make an interactive map or a chart using various third-party libraries.

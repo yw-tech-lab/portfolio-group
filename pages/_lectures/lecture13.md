@@ -1,24 +1,36 @@
 ---
 layout: module
-title: Practice manipulating lists and objects
+title: "Working with Data: AJAX & Web APIs (Part 1)"
 type: lecture
-draft: 1
+draft: 0
 num: 13
 due_date: 2021-05-10
-slides:
-   - url: https://docs.google.com/presentation/d/1EVuiPopIu9qoMM_nGkbrSS1O0EMTw4FHJ1La_hh-S_Y/edit?usp=sharing
-     title: Practice manipulating lists and objects
+# slides:
+#    - url: https://docs.google.com/presentation/d/1lhOFDPcN9s7D6nYFTb7Nr7c-UQAaUKmbVzv_3wL8dNA/edit?usp=sharing
+#      title: "Working with Data: AJAX & Web APIs"
 
-videos:
-   - url: https://northwestern.zoom.us/rec/share/4sBIcuDgyGJLSYGQyHzlaKgOGZ7qeaa8gClPrKEOzE5cS_kwp07QbP1WVucg6sXF?startTime=1589403533000
-     title: Lists, Dictionaries, and Templates
-     live: 1
+# include_page: "includes/fetch.md"
 
+# videos:
+#    - url: ""
+#      title: Recorded Lecture Video
+#      live: 1
+#      duration: ""
+
+readings:
+   - url: https://www.codeinwp.com/blog/fetch-api-tutorial-for-beginners/
+     title: "Fetch API Tutorial for Beginners: How to Use Fetch API"
+     author: Lazaris, Louis
+     date: 2020
+   - url: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+     title: "Using Fetch"
+     source: Mozilla Developer Network
+     notes: For your reference.
 ---
 
-<a class="nu-button" href="/spring2021/course-files/lectures/lecture12.zip">
+<!-- <a class="nu-button" href="/spring2021/course-files/lectures/lecture13.zip">
     download lecture files 
     <i class="fas fa-download"></i>
-</a>
+</a> -->
 
-Today we are transitioning into creating data-driven templates, which will help us to create dynamic, interactive, web apps. We will begin by introducting two new data types -- lists and objects -- and then examining how we can use data with HTML, CSS, and JavaScript via templates.
+Today, we are going to be learning about JavaScript’s fetch API, and how to use it to retrieve data from various content providers (i.e. servers). 
