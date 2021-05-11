@@ -12,11 +12,11 @@ slides:
 
 # include_page: "includes/fetch.md"
 
-# videos:
-#    - url: ""
-#      title: Recorded Lecture Video
-#      live: 1
-#      duration: ""
+videos:
+   - url: https://northwestern.zoom.us/rec/share/JnXs2FTCbn7LDPy5C9ZLLqZnptC_bNb-7345wCVrR8jPh3MWfWwkE3ZAaTstwt01.xKjPWU6naHYjtI7t
+     title: Recorded Lecture Video
+     live: 1
+     duration: "53:06"
 
 readings:
    - url: https://www.codeinwp.com/blog/fetch-api-tutorial-for-beginners/
