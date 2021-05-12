@@ -5,9 +5,10 @@ type: lecture
 draft: 0
 num: 14
 due_date: 2021-05-12
-# slides:
-#    - title: Working with Web Services
-#      url: ""
+exercise_url: lecture14.zip
+slides:
+   - title: Working with Web Services
+     url: https://docs.google.com/presentation/d/1rclYLsDpXX0w4DrMJWDEfn1QkUDfzA0rbcVlUN2Ke8A/edit?usp=sharing
 
 # videos:
 #    - url: ""
@@ -26,10 +27,5 @@ readings:
     date: "March, 2020"
     notes: "To get you thinking about some of the ways in which you might incorporate third-party data into your app or website."
 ---
-
-<!-- <a class="nu-button" href="/spring2021/course-files/lectures/lecture13.zip">
-    download lecture files 
-    <i class="fas fa-download"></i>
-</a> -->
 
 In this lecture, we will be talking about web services and looking at some different examples of how various organizations and initiatives make their data available to third parties using something called a REST API. We'll also talk about different strategies for integrating this kind of data in order to make different interface elements.
