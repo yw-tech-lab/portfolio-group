@@ -1,6 +1,6 @@
 ---
 layout: assignment-two-column
-title: Final Project Presentations
+title: Final Project Presentations [Mandatory Attendance]
 type: presentation
 abbreviation: Presentation
 draft: 1

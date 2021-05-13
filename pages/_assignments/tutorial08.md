@@ -1,6 +1,6 @@
 ---
 layout: assignment-two-column
-title: "Informal Project Presentations" 
+title: "Informal Project Presentations [Mandatory Attendance]" 
 type: tutorial
 abbreviation: Tutorial 8
 draft: 1
