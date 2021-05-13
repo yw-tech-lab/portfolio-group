@@ -10,11 +10,11 @@ slides:
    - title: Working with Web Services
      url: https://docs.google.com/presentation/d/1rclYLsDpXX0w4DrMJWDEfn1QkUDfzA0rbcVlUN2Ke8A/edit?usp=sharing
 
-# videos:
-#    - url: ""
-#      title: Recorded Lecture Video
-#      live: 1
-#      duration: ""
+videos:
+   - url: https://northwestern.zoom.us/rec/share/iNGdlIUhKiNBFmTL5s21dPz7miFxphzOZ2UFwlF5XbZBlGdK424qd1RMqLZPnbtr.DffsiKECO7A2K9yD
+     title: Recorded Lecture Video
+     live: 1
+     duration: "52:32"
 readings:
   - url: https://medium.com/extend/what-is-rest-a-simple-explanation-for-beginners-part-1-introduction-b4a072f8740f
     title: "What is REST — A Simple Explanation for Beginners"
