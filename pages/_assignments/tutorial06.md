@@ -69,7 +69,7 @@ Move your `tutorial06` folder into your repo folder (if it's not there already).
 1. Check the status of your repo:<br>`$ git status`<br>It should say that your tutorial06 files are “untracked”
 1. Add all of your tutorial06 files to the list of files that are tracked by the repo:<br>`$ git add tutorial06`
 1. Check the status of your repo again:<br>`$ git status`<br>It should now say that you tutorial06 files are being tracked.
-1. Now, commit your new tutorial05 files to the repo:<br>`$ git commit -m "Adding my tutorial06 to the repo"`
+1. Now, commit your new tutorial06 files to the repo:<br>`$ git commit -m "Adding my tutorial06 to the repo"`
 1. Finally, “push” your files to GitHub:<br>`$ git push`
 1. Paste a link to your GitHub repo and to your GitHub pages 
 
