@@ -1,6 +1,6 @@
 ---
 layout: assignment-two-column
-title: Working with REST APIs
+title: Starting the Spotify JS Homework
 type: tutorial
 abbreviation: Tutorial 7
 draft: 0
