@@ -1,17 +1,18 @@
 ---
 layout: module
-title: Integrating Third-Party UI Components
+title: Spotify Activity
 type: lecture
-draft: 1
+draft: 0
 num: 15
 due_date: 2021-05-17
 slides:
-   - title: Making your app interactive with third-party data
-     url: https://docs.google.com/presentation/d/1tJfkA8Ans9AeokARRGbh-ktENYf_TeXlhbqsRggkUv8/edit?usp=sharing
-videos:
-   - url: https://northwestern.zoom.us/rec/share/tN1MKJff81tIW4Xuq1vZcJ4oHKvHaaa8hCcY8_YKyxku3yuCvqfFX2CY8slnICrt?startTime=1590008321000
-     title: Working with web services
-     live: 1
+   - title: Announcements
+     url: https://docs.google.com/presentation/d/1hb_X-j6bOnPBplVn0WgO-AMNyQBtEOpf9LhhO4Wfb6g/edit?usp=sharing
+# videos:
+#    - url: ""
+#      title: Recorded Lecture Video
+#      live: 1
+#      duration: "52:32"
 ---
 
 <!-- <a class="nu-button" href="/spring2021/course-files/lectures/lecture14.zip">
@@ -19,4 +20,4 @@ videos:
     <i class="fas fa-download"></i>
 </a> -->
 
-Widgets! I've also provided a few sample files to show you how you might make an interactive map or a chart using various third-party libraries.
+Today we're going to review HW4 and walk you through any questions that you might have. 
