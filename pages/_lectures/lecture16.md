@@ -2,21 +2,16 @@
 layout: module
 title: Integrating Third-Party UI Components
 type: lecture
-draft: 1
+draft: 0
 num: 16
 due_date: 2021-05-19
-slides:
-   - title: Making your app interactive with third-party data
-     url: https://docs.google.com/presentation/d/1tJfkA8Ans9AeokARRGbh-ktENYf_TeXlhbqsRggkUv8/edit?usp=sharing
-videos:
-   - url: https://northwestern.zoom.us/rec/share/tN1MKJff81tIW4Xuq1vZcJ4oHKvHaaa8hCcY8_YKyxku3yuCvqfFX2CY8slnICrt?startTime=1590008321000
-     title: Working with web services
-     live: 1
+# slides:
+#    - title: Integrating Third-Party UI Components
+#      url: https://docs.google.com/presentation/d/1VJtIfuA1Qhy_eyCGXqI3lKxP85DbGB_KSV2n6M6enYA/edit?usp=sharing
+# videos:
+#    - url: 
+#      title: Recorded Lecture Video
+#      live: 1
 ---
 
-<!-- <a class="nu-button" href="/spring2021/course-files/lectures/lecture14.zip">
-    download lecture files 
-    <i class="fas fa-download"></i>
-</a> -->
-
-Widgets! I've also provided a few sample files to show you how you might make an interactive map or a chart using various third-party libraries.
+Today we'll be going over the process of integrating third-party widgets and libraries into existing code, and the pros and cons of using third-party libraries I've also provided a few sample files to show you how you might integrate n carousel or interactive map into your website.
