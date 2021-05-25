@@ -9,11 +9,11 @@ exercise_url: lecture17.zip
 slides:
    - title: Data Visualization
      url: https://docs.google.com/presentation/d/1wWYhy7Jslx7WPT23tIhvBR4xhVXjMQqoz4VyVRw0J54/edit?usp=sharing
-# videos:
-#    - url: https://northwestern.zoom.us/rec/share/oPr6m2pnUfcEzEEvKQ_kTCT25MH3-6NYCQLapJv-uIUdLu8ebjvIhlKdITNcngxH.59XdqILWjoyQw92W
-#      title: Recorded Lecture Video
-#      live: 1
-#      duration: "51:44"
+videos:
+   - url: https://northwestern.zoom.us/rec/share/VvvN3YX7GnzXIJKKF-15w3gm2SGfIO83OnVp6OuISlRLXWmNtsh-lA11nJtQjcs.fwkEYHUw2tgEHscj
+     title: Recorded Lecture Video
+     live: 1
+     duration: "57:02"
 readings:
    - url: https://web.cs.dal.ca/~sbrooks/csci4166-6406/seminars/readings/Cleveland_GraphicalPerception_Science85.pdf
      title: Graphical Perception and Graphical Methods for Analyzing Scientific Data
