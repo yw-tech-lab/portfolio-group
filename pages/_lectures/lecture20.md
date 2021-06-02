@@ -1,12 +1,17 @@
 ---
-layout: lecture
-title: TBD
+layout: module
+title: Domain Names & Analytics
 type: lecture
-draft: 1
+draft: 0
 num: 20
 due_date: 2021-06-02
+slides:
+   - url: https://docs.google.com/presentation/d/1MPct4z4O_WgtxUtfbVTxeNVj9qgv5dSXLMqhchnhP44/edit?usp=sharing
+     title: "Domain Names & Analytics"
+
 ---
 
-### Please Sign Up for an OH Slot
-
-<a href="https://docs.google.com/spreadsheets/d/1d_1wr_ba8dim7D4Fe-Hpy0kzVmYQcvF9E79Is-86wJk/edit#gid=287283263" target="_blank">Sign-up Sheet</a>
+Course recap + domain names. Some helpful links:
+* <a href="https://medium.com/@hossainkhan/using-custom-domain-for-github-pages-86b303d3918a" target="_blank">https://medium.com/@hossainkhan/using-custom-domain-for-github-pages-86b303d3918a</a>
+* <a href="https://medium.com/@hossainkhan/using-custom-domain-for-github-pages-86b303d3918a" target="_blank">https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site</a>
+* <a href="https://analytics.google.com/analytics/web/#/" target="_blank">https://analytics.google.com/analytics/web/#/</a>
