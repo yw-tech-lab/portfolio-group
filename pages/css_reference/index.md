@@ -2,7 +2,7 @@
 layout: two-column-resources
 title: CSS Resources
 # parent: CSS Resources
-nav_order: 11
+nav_order: 2
 has_children: true
 permalink: /css-reference/
 show_outline: false

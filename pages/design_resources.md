@@ -2,7 +2,7 @@
 layout: two-column-resources
 title: Design Resources
 # parent: Design Resources
-nav_order: 1
+nav_order: 3
 has_children: true
 permalink: /design-reference/
 ---

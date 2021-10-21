@@ -2,7 +2,7 @@
 layout: two-column-resources
 title: HTML Resources
 # parent: HTML Resources
-nav_order: 10
+nav_order: 1
 has_children: true
 permalink: /html-reference/
 ---
