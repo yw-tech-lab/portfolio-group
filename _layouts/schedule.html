@@ -8,16 +8,14 @@ layout: default
     {% assign dates = everything | sort: 'due_date'| map: 'due_date' | uniq %}
     {% assign labs = site.assignments | where: 'type', 'tutorial' %}
     {% assign main_listing = site.lectures | concat: labs %}
-    <p>
-        Note: This schedule is subject to change (as needed). 
-    </p>
+
     <table>
         <thead>
             <tr>
                 <th>Week</th>
                 <th></th>
                 <th>Topic</th>
-                <th>Due</th>
+                <!-- <th>Due</th> -->
             </tr>
         </thead>
         <tbody>
@@ -77,7 +75,7 @@ layout: default
                     <td>{{ date | date: "%a, %m/%d" }}</td>
                     <td></td>
                 {% endif %}
-                <td>
+                <!-- <td>
                     {% assign assignments = site.assignments | where: 'due_date', date %}
                     {% for assignment in assignments %}
                         {% assign classname = "pj" %}
@@ -98,7 +96,7 @@ layout: default
                         {% endif %} 
                         {{ assignment.title }}<br>
                     {% endfor %}
-                </td>
+                </td> -->
             </tr>
             {% assign last_week = week %}
         {% endfor %}

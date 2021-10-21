@@ -1,35 +1,28 @@
 ---
 layout: module
-title: Web Infrastructure
+title: CSS Selectors + Tips & Tricks
 type: lecture
-due_date: 2021-10-14
 draft: 0
-image_url: assets/images/internet-backbone-map.png
 show_schedule: 1
 num: 3
-description: 
-   - Intro to the Internet
-   - Intro to the Web
-readings:
-   - url: https://www.vox.com/2014/6/16/18076282/the-internet
-     title: The Internet Explained
-     author: Timothy B. Lee
-     date: 2015
-   - url: https://www.vox.com/a/internet-maps
-     title: 40 Maps That Explain the Internet
-     author: Timothy B. Lee
-     date: 2014
-   - url: https://webfoundation.org/about/vision/history-of-the-web/
-     title: History of the Web
-     source: The World Wide Web Foundation
-slides:
-   - url: https://docs.google.com/presentation/d/1FIQT8xRHlOiznnuV-MLQ3I2Yrmdk5kXnK0txJdKWQKY/edit?usp=sharing
-     title: Intro to Web Infrastructure
+due_date: 2021-10-14
 videos: 
-   - url: https://northwestern.zoom.us/rec/share/MdywccbMuO0eusQRLwQGZdXy3MtbnqGRIsH5Qh12H7Yx8jaHfj0YWJO9qqyo6lUi.t0uMqfGP5ETVl2Ir?startTime=1617656325000
-     title: Recorded Lecture Video
-     live: 1
-     duration: "41:20"
+   - url: https://drive.google.com/file/d/1VLZv-p53n3NfWE_KUAqSOPZcxyvuKHEU/view?usp=sharing
+     title: Class video recording
+     duration: "1:14:54"
+slides:
+   - url: https://docs.google.com/presentation/d/1UwdicJDO-YOyfmgXAFtZGBeLVXz6nV99SlI4RjME1ZU/edit?usp=sharing
+     title: CSS Selectors
 
 ---
-<img class="module-image" src="/portfolio-group/assets/images/internet-backbone-map.png" /> Today's readings provide interesting background and context for the web / internet. You're not going to be tested on them, but you should still do them in order to have a working knowledge of how the internet works. The readings shouldn't take too long!
+
+## Recap
+Today we went through the idea of selectors (with Esther), learned some tips and tricks (from Beck) and worked a bit more on the FroYo CSS.
+
+We also have our first client, Khalilah Lyons, who wants us to build a website for her consulting business. Her slides are available [here](https://drive.google.com/file/d/1E00i5GjdMnQAMWNyRM7yi_dLBiRAO9iu/view?usp=sharing). She also has a second website here (for another business she runs) called [Candidly Connecting](https://www.candidlyconnecting.com/).
+
+We are still figuring out logistics regarding budget and timeline, but I think it could be a great way to gets some hand-on, real-world experience while practicing our coding and design skills.
+
+## Goals for the week
+* Continue working on the Homepage CSS
+* See if you can start working on the mobile version
