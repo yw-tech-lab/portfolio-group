@@ -13,6 +13,7 @@ permalink: /html-reference/rules-of-thumb/
 * <a href="https://www.linkedin.com/learning/html-essential-training-4/the-role-of-html" target="_blank">The role of HTML</a> (4:29)
 * <a href="https://www.linkedin.com/learning/html-essential-training-4/the-syntax-of-html-elements" target="_blank">The Syntax of HTML Elements</a> (4:56)
 * <a href="https://www.linkedin.com/learning/html-essential-training-4/formatting-html" target="_blank">Formatting HTML</a> (4:30)
+* <a href="https://www.linkedin.com/learning/html-essential-training-4/document-head" target="_blank">Document Head</a> (3:56)
 
 Most of the HTML language is best learned through practice, however below are ten rules of thumb that can help you learn how to use the tags to create the desired result.
 

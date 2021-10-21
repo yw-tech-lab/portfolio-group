@@ -6,6 +6,14 @@ parent: HTML Resources
 permalink: /html-reference/media-tags/
 ---
 
+{:.blockquote-no-margin}
+> ## LinkedIn Learning Resources
+>
+> * <a href="https://www.linkedin.com/learning/html-essential-training-4/audio" target="_blank">Audio</a> (4:11)
+> * <a href="https://www.linkedin.com/learning/html-essential-training-4/video" target="_blank">Video</a> (5:38)
+> * <a href="https://www.linkedin.com/learning/html-essential-training-4/embedding-other-media-through-iframes" target="_blank">IFrames</a> (3:10)
+
+
 In the previous section, we reviewed the simplest and most *frequently used* tags: `<h1>, <h2>...<h6>, <p>, <a>, <img>`
 
 In this section, we add to this list by including **iframes, audio files, videos, lists, and tables**. Below we provide a description of each element, as well as the tags, attributes, and values that generate them. Each element also has a corresponding code sample that you can continue exploring on your own.
