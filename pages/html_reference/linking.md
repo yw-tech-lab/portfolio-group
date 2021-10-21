@@ -6,10 +6,11 @@ parent: HTML Resources
 permalink: /html-reference/links/
 ---
 
-> **Overview Resources**
->
-> * LinkedIn Learning video: [Exploring the anchor element](https://www.linkedin.com/learning/html-essential-training/exploring-the-anchor-element?u=75814418) (2:58)
-> * [Absolute versus relative paths](http://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/)
+> **Overview Resources (LinkedIn Learning)**
+> * <a href="https://www.linkedin.com/learning/html-essential-training-4/links" target="_blank">Links</a> (4:49)
+> * <a href="https://www.linkedin.com/learning/html-essential-training-4/url-paths" target="_blank">URL Paths</a> (4:45)
+
+
 
 ## 1. Navigating Relative File Paths
 Given the image below, the following relative paths are from the perspective of the index.html file.
@@ -25,13 +26,9 @@ styles/dark/new.css # go into the styles directory, then into the dark directory
 <a href="/portfolio-group/assets/paths.zip">Download the sample files</a> to experiment with relative file paths (and view the home/index.html).
 
 ## 2. Linking to pages within your own site
-* LinkedIn Learning Video: [Linking to pages within your own site](https://www.linkedin.com/learning/html-essential-training/linking-to-pages-within-your-site?u=75814418) (10:21)
 
 ## 3. Linking to external pages
 <iframe src="//codepen.io/vanwars/embed/mERgZY/?height=300&theme-id=18654&default-tab=html,result" allowfullscreen="true" class="codepen-frame"></iframe>
-
-> **Additional Resources**
-* LinkedIn Learning Video: [Linking to external pages](https://www.linkedin.com/learning/html-essential-training/linking-to-external-pages?u=75814418) (4:18)
 
 
 ## 4. Linking to page regions
@@ -39,9 +36,12 @@ styles/dark/new.css # go into the styles directory, then into the dark directory
 
 
 > **Additional Resources**
-* LinkedIn Learning Video: [Linking to page regions](https://www.linkedin.com/learning/html-essential-training/linking-to-page-regions?u=75814418) (9:46)
+* LinkedIn Learning Video: <a href="https://www.linkedin.com/learning/html-and-css-linking/linking-within-the-same-document-and-top-of-page?resume=false&u=75814418" target="_blank">Linking within the same document and top of page</a> (6:25)
 
 
 ## 5. Organizing links into a menu
 The links in this example don't link to anything (yet), but is meant to show that div and span tags can be useful for grouping links into conceptual widgets (like menus)
 <iframe src="//codepen.io/vanwars/embed/YMWqoO/?height=300&theme-id=18654&default-tab=html,result" allowfullscreen="true" class="codepen-frame"></iframe>
+
+> **Additional Resources**
+* LinkedIn Learning Video: <a href="https://www.linkedin.com/learning/html-essential-training-4/navigation" target="_blank">Navigation</a> (3:18)
