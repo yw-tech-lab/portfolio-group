@@ -7,7 +7,7 @@ parent: HTML Resources
 permalink: /html-reference/rules-of-thumb/
 ---
 
-> **References**:
+> ## LinkedIn Learning Videos
 > For more information, watch the LinkedIn Learning video tutorials:
 * <a href="https://www.linkedin.com/learning/html-essential-training-4/what-is-html?resume=false" target="_blank">What is HTML?</a> (1:34)
 * <a href="https://www.linkedin.com/learning/html-essential-training-4/the-role-of-html" target="_blank">The role of HTML</a> (4:29)
