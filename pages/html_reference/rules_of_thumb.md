@@ -9,9 +9,10 @@ permalink: /html-reference/rules-of-thumb/
 
 > **References**:
 > For more information, watch the LinkedIn Learning video tutorials:
-* [The Importance of HTML](https://www.linkedin.com/learning/html-essential-training/the-importance-of-html?u=75814418) (3:19)
-* [Basic HTML Syntax](https://www.linkedin.com/learning/html-essential-training/basic-html-syntax?u=75814418) (8:42)
-* [Exploring an HTML Document](https://www.linkedin.com/learning/html-essential-training/exploring-an-html-document?u=75814418) (5:27)
+* <a href="https://www.linkedin.com/learning/html-essential-training-4/what-is-html?resume=false" target="_blank">What is HTML?</a> (1:34)
+* <a href="https://www.linkedin.com/learning/html-essential-training-4/the-role-of-html" target="_blank">The role of HTML</a> (4:29)
+* <a href="https://www.linkedin.com/learning/html-essential-training-4/the-syntax-of-html-elements" target="_blank">The Syntax of HTML Elements</a> (4:56)
+* <a href="https://www.linkedin.com/learning/html-essential-training-4/formatting-html" target="_blank">Formatting HTML</a> (4:30)
 
 Most of the HTML language is best learned through practice, however below are ten rules of thumb that can help you learn how to use the tags to create the desired result.
 
