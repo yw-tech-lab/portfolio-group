@@ -13,9 +13,9 @@ layout: default
         <thead>
             <tr>
                 <th>Week</th>
-                <th></th>
+                <th>Date</th>
                 <th>Topic</th>
-                <!-- <th>Due</th> -->
+                <th>Practice for Next Week</th>
             </tr>
         </thead>
         <tbody>
@@ -75,7 +75,7 @@ layout: default
                     <td>{{ date | date: "%a, %m/%d" }}</td>
                     <td></td>
                 {% endif %}
-                <!-- <td>
+                <td>
                     {% assign assignments = site.assignments | where: 'due_date', date %}
                     {% for assignment in assignments %}
                         {% assign classname = "pj" %}
@@ -96,7 +96,7 @@ layout: default
                         {% endif %} 
                         {{ assignment.title }}<br>
                     {% endfor %}
-                </td> -->
+                </td>
             </tr>
             {% assign last_week = week %}
         {% endfor %}
@@ -104,3 +104,24 @@ layout: default
     </table>
 
 </section>
+
+<script>
+    /* 
+        Script for calculating # of days until assignment due.
+        Note: Can't use Jekyll b/c it doesn't compile every time.
+    */
+    const trs = document.querySelectorAll('.schedule tr');
+    for (tr of trs) {
+        const targetTD = tr.querySelector('td:nth-child(2)');
+        // this is hacky:
+        if (targetTD) {
+            let dateString = targetTD.innerHTML.split(', ');
+            dateString = dateString[dateString.length - 1].replace('\n', '/' + (new Date()).getFullYear());
+            const dueDate = new Date(dateString);
+            const numDays = (dueDate - new Date()) / (1000 * 3600 * 24);
+            if (numDays + 7 < -1) {
+                tr.classList.add('passed');
+            }
+        }
+    }
+</script>

@@ -18,15 +18,21 @@ permalink: /css-reference/flexbox/
 | <a href="https://www.linkedin.com/learning/css-essential-training-3/flexbox-alignment" target="_blank">Flexbox alignment</a> | 2:13 |
 
 ## Additional Resources & Documentation
+* <a href="https://flexboxfroggy.com/?learn" target="_blank">Flexbox Froggy Game</a> (see if you can complete the first 12 levels)
 * <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">CSS Tricks: A guide to flexbox</a> (recommended)
 
 
-## Examples
+## Cheatsheet
+### Simplified
 
-### Example 1
-Simple: Flexbox cards + responsive elements
-<iframe src="//codepen.io/vanwars/embed/EJQwej?editors=0100" allowfullscreen="true" class="codepen-frame"></iframe>
+| Property | Values |
+|--|--|
+| [display](https://developer.mozilla.org/en-US/docs/Web/CSS/display) | `flex` |
+| [flex-direction](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction) | `row` `column` `row-reverse` `column-reverse`|
+| [flex-wrap](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap) | `nowrap` `wrap` `wrap-reverse` |
+| [align-items](https://developer.mozilla.org/en-US/docs/Web/CSS/align-items) | `stretch` `flex-start` `flex-end` `center` `baseline` `auto` |
+| [justify-content](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content) | `flex-start` `flex-end` `center` `space-between` `space-around` `space-evenly` |
+| [align-content](https://developer.mozilla.org/en-US/docs/Web/CSS/align-content) | `flex-start` `flex-end` `center` `space-between` `space-around` `stretch` |
 
-### Example 2
-Cards + Material Design Effect
-<iframe src="//codepen.io/vanwars/embed/oOEoBo?editors=0100" allowfullscreen="true" class="codepen-frame"></iframe>
+### Comprehensive
+* <a href="https://yoksel.github.io/flex-cheatsheet/" target="_blank">Comprehensive flex cheatsheet</a>
