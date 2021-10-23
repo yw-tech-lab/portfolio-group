@@ -13,7 +13,7 @@ videos:
 slides:
    - url: https://docs.google.com/presentation/d/1pRUnpEhAEGXQSu-WHjZMMZIINYLU4Cp_XAOwMtUn_xY/edit?usp=sharing
      title: More CSS Practice
-exercise_url: week-4-froyo-homepage.zip
+# exercise_url: week-4-froyo-homepage.zip
 ---
 
 Today we are going to continue reviewing some concepts of CSS, including: (a) selectors, (b) the box model, (c) CSS units, and (d) media queries
