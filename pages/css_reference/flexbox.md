@@ -24,6 +24,7 @@ permalink: /css-reference/flexbox/
 
 ## Cheatsheet
 ### Simplified
+Note: the properties below are applied on the parent container:
 
 | Property | Values |
 |--|--|

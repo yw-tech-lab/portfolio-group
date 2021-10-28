@@ -2,7 +2,7 @@
 layout: module
 title: Flexbox & Media Queries & Needfinding
 type: lecture
-draft: 1
+draft: 0
 show_schedule: 1
 num: 5
 due_date: 2021-10-28
@@ -10,9 +10,10 @@ due_date: 2021-10-28
 #    - url: ""
 #      title: Class video recording
 #      duration: "??"
-# slides:
-#    - url: ""
-#      title: ""
+slides:
+   - url: https://docs.google.com/presentation/d/1BFAb6ORL4As-27_7JwukYGT0a6qx2LnqhWNZqteSEmA/edit?usp=sharing
+     title: Even More CSS Practice
+exercise_url: week-5-flexbox-responsive.zip
 ---
 
 {:.blockquote-no-margin}
@@ -23,7 +24,7 @@ due_date: 2021-10-28
 > 2. Needfinding activity
 > 3. Scheduling an interview with Khalilah Lyons (figuring out logistics)
 
-### 1. Practice with flexbox and media queries
+<!-- ### 1. Practice with flexbox and media queries
 
 ### 2. Needfinding Activity
 Some potential questions to ask (everyone will brainstorm these questions together).
@@ -52,4 +53,4 @@ Some potential questions to ask (everyone will brainstorm these questions togeth
   * What do you do not like about them?
 
 #### Miscellaneous
-Anything else that you want us to know?
+Anything else that you want us to know? -->
