@@ -6,10 +6,10 @@ draft: 0
 show_schedule: 1
 num: 5
 due_date: 2021-10-28
-# videos: 
-#    - url: ""
-#      title: Class video recording
-#      duration: "??"
+videos: 
+   - url: https://drive.google.com/file/d/1qB-z8weto2hRoFmaCT9raLlaLpTc9xBj/view?usp=sharing
+     title: Class video recording
+     duration: "1:36:35"
 slides:
    - url: https://docs.google.com/presentation/d/1BFAb6ORL4As-27_7JwukYGT0a6qx2LnqhWNZqteSEmA/edit?usp=sharing
      title: Even More CSS Practice
