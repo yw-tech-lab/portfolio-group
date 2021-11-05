@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    
+}
+body * {
+    box-sizing: border-box;
+}
+
+/* Desktop style rules go here */
+img{
+    width: 100%
+}
+
+.brown_text{
+    color: #876464;
+}
+
+.pink_text{
+    color: #d63173;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    background: #EAE7E8;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+/* .grid-item{
+    border: 2px solid black;
+}
+ */
+.image{
+    display: flex;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: 100%;
+        background: #EAE7E8;
+    }
+
+    .image{
+        display: flex;
+        justify-content: center;
+    }
+
+    img{
+        width: auto;
+    }
+  }
